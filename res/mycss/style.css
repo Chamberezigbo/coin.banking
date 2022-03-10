@@ -1,0 +1,238 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	background-color: #20204e !important;
+	color: #ffffff;
+}
+
+nav button {
+	background-color: #ABE500;
+	padding: 8px;
+	border-radius: 10px;
+}
+
+.landing-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("../img/student.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	color: white;
+}
+.landing-section button:hover {
+	background-color: #ABE500;
+}
+.user-details {
+	background-color: #20204e;
+	height: auto;
+	color: #ffffff;
+}
+.text-margin {
+	padding-top: -5px;
+}
+section{
+	background-color:#131340;
+	border-bottom: 1px solid #414168;
+}
+.aboutSection {
+	color:white;
+}
+.side-img {
+	position: relative;
+	animation-name: moving-img;
+	animation-timing-function: ease;
+	animation-duration: 2s;
+	transform-origin: bottom;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moving-img {
+	0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+
+}
+
+section .recent-updateSection .left-btn{
+	background-color: #A2D800;
+	color: black;
+	border-radius: 20px;
+}
+
+section .recent-updateSection .right-btn {
+	background-color: #20204e;
+	border-radius: 20px;
+	color: #A2D800;
+}
+
+section .recent-updateSection .right-btn:hover {
+	background-color: #A2D800;
+	border-radius: 5px;
+	color: white;
+}
+section .recent-updateSection table thead {
+	background-color:#A2D800;
+	color: black;
+}
+section .recent-updateSection table tbody tr:hover {
+	background-color: #20204E;
+	color: white;
+}
+
+.card-section-one {
+	background-color: #20204E;
+}
+
+.card-section-one .bg-card-two {
+	background-color: #20204E;
+	border: solid 3px #A7DF00;
+}
+.card-section-one .bg-card-two:hover {
+	box-shadow: rgba(172, 230, 0, 0.25) 0px 54px 55px, rgba(172, 230, 0, 0.12) 0px -12px 30px, 
+		rgba(172, 230, 0, 0.12) 0px 4px 6px, rgba(172, 230, 0, 0.17) 0px 12px 13px,
+		rgba(172, 230, 0, 0.09) 0px -3px 5px;
+}
+.collapse-sec{
+	border: 2px solid #ABE500;
+	color: white;
+	background-color: #15163F;
+}
+
+.collapse-sec:active {
+	background-color: #ACE600;
+	color: black;
+}
+.collapse-details{
+	color: white;
+	border: 2px solid #ABE500 ;
+}
+
+.collapse-details div {
+	background-color: #15163F;
+}
+.investors-section .card .card-body {
+	background-color: #20204E;
+	color: white;
+	border: 2px dotted #ABE500 ;
+	box-shadow: rgba(172, 230, 0, 0.25) 0px 54px 55px, rgba(172, 230, 0, 0.12) 0px -12px 30px, 
+		rgba(172, 230, 0, 0.12) 0px 4px 6px, rgba(172, 230, 0, 0.17) 0px 12px 13px,
+		rgba(172, 230, 0, 0.09) 0px -3px 5px;
+}
+.testimony-card {
+	background-color: #20204E;
+	border: 2px solid #ABE500;
+	color: white;
+}
+.testimony-card:hover {
+	box-shadow: rgba(172, 230, 0, 0.4) 0px 0px 0px 2px,
+		rgba(172, 230, 0, 0.65) 0px 4px 6px -1px,
+		rgba(172, 230, 0, 0.08) 0px 1px 0px inset;
+}
+
+.followers{
+	padding: 40px;
+	background-color: #20204E;
+	box-shadow: rgba(172, 230, 0, 0.25) 0px 54px 55px, rgba(172, 230, 0, 0.12) 0px -12px 30px, 
+		rgba(172, 230, 0, 0.12) 0px 4px 6px, rgba(172, 230, 0, 0.17) 0px 12px 13px,
+		rgba(172, 230, 0, 0.09) 0px -3px 5px;
+}
+
+.followers-singel {
+	border-right: 2px solid #ABE500;
+}
+
+footer {
+	background-color: #20204E;
+}
+footer .row h5 {
+	cursor: pointer;
+}
+footer .row h5 span:hover {
+	color: #ABE500;
+}
+footer .first-footer {
+	border-bottom: 2px solid white;
+}
+
+footer .row .icon span:hover {
+	background-color: #ABE500;
+}
+
+.login-modal {
+	border: 2px solid #ABE500 !important;
+	background-color: #20204E !important;
+}
+.login-modal .modal-footer {
+	text-align: center !important;
+}
+ 	
+
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 690px) {
+	#small-screen {
+		padding-bottom: 70px;
+	}
+	.container button {
+		margin-top: -100px;
+	}
+	.landing-section {
+		height: auto;
+	}
+	.landing-section h1 {
+		font-size: xx-large;
+	}
+	.user-details {
+		height: auto;
+	}
+	.user-details .row {
+		border: 1px solid #ace600 !important;
+		border-radius: 0px !important;
+		display: block;
+		padding-left: 50%;
+	}
+	.user-details .row .eye {
+		padding-right: 50px;
+	}
+	section .recent-updateSection .btn-group {
+		margin-top: 100px !important;
+	}
+	section .recent-updateSection .btn-group .right-btn {
+		padding: 1px 50px 1px 50px !important;	}
+	section .recent-updateSection .btn-group  .left-btn{
+		padding: 1px 50px 1px 50px !important;
+	}
+
+	.card-section{
+		padding-left: 40px;
+	}
+	.collapse-sec{
+		width: 24rem !important;
+		margin-bottom: ;
+	}
+	.collapse-sec span{
+		display: none;
+	}
+	.investors-section .card{
+		margin-top: 20px;
+	}
+	.d-none-sm{
+		display: none;
+	}
+	.followers-singel {
+		padding-top: 20px;
+	}
+	footer .row .icon {
+		text-align: center;
+	}
+	footer .first-footer img {
+		float: inherit !important;
+	}
+
+}
