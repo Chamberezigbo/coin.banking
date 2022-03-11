@@ -1,9 +1,8 @@
 <?php
-
 require_once("header.php");
 ?>
 <!-- my background image -->
-<div class="landing-section">
+<div class="container-fluid landing-section">
      <div class="container pt-5">
           <div class="container pt-5">
                <div class="pt-5 text-center" id="small-screen">
@@ -25,7 +24,7 @@ require_once("header.php");
 </div>
 
 <!-- users section -->
-<div class="user-details">
+<div class="user-details container-fluid">
      <div class="container text-center  pt-5 pb-5">
           <div class="row p-2 row-cols-1 pt-4 rounded-pill box">
 
@@ -65,7 +64,7 @@ require_once("header.php");
 
 <!-- about section -->
 <!-- ? suppose to handle responsive image  -->
-<section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+<section class="container-fluid" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
      <div class="aboutSection" id="scrollspyHeading1">
           <div class="container">
                <div class="row row-cols-1 pt-5 pb-4">
@@ -120,7 +119,7 @@ require_once("header.php");
 </section>
 
 <!-- investment package -->
-<section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+<section class="container-fluid" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
      <div class="container py-5 card-package" id="scrollspyPlan">
           <div class="container mb-3">
                <h2 class="text-center text-light">
@@ -228,7 +227,7 @@ require_once("header.php");
 </section>
 
 <!-- how page -->
-<section>
+<section class="container-fluid">
      <div class="container py-5 text-center text-light">
           <div class="container text-center ">
                <h2>How Coins Max Profits Works</h2>
@@ -274,8 +273,8 @@ require_once("header.php");
      </div>
 </section>
 
-<!-- Recent deposite section -->
-<section>
+<!-- Recent deposit section -->
+<section class="container-fluid">
      <div class="container text-center recent-updateSection">
           <div class=" pt-5 text-light">
                <h2><em>Recent Deposit And Withdraw</em></h2>
@@ -351,13 +350,13 @@ require_once("header.php");
 
 
 <!-- trust section -->
-<section class="card-section-one" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+<section class="container-fluid card-section-one " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
      <div class="container text-light pt-5 pb-5" id="scrollspytrust">
           <div class="container ">
                <h2>Why You Trust Our Service</h2>
                <div class="row pt-4 card-section">
                     <div class="col-lg-4 pt-3">
-                         <div class="card" style="width: 22rem;">
+                         <div class="card" style="width: 21rem;">
                               <div class="card-body bg-card-two">
                                    <h5 class="card-title bg-green"><i class="fa-solid fa-user-lock fa-2x"></i> </h5>
                                    <h6 class="card-subtitle mb-4 mt-4">Anonymity</h6>
@@ -368,7 +367,7 @@ require_once("header.php");
                          </div>
                     </div>
                     <div class="col-lg-4 pt-3">
-                         <div class="card" style="width: 22rem;">
+                         <div class="card" style="width: 21rem;">
                               <div class="card-body bg-card-two">
                                    <h5 class="card-title bg-green"><i class="fa-solid fa-user-secret fa-2x"></i> </h5>
                                    <h6 class="card-subtitle mb-4 mt-4">High reliability</h6>
@@ -379,7 +378,7 @@ require_once("header.php");
                          </div>
                     </div>
                     <div class="col-lg-4 pt-3">
-                         <div class="card" style="width: 22rem;">
+                         <div class="card" style="width: 21rem;">
                               <div class="card-body bg-card-two">
                                    <h5 class="card-title bg-green"><i class="fa-solid fa-credit-card fa-2x"></i> </h5>
                                    <h6 class="card-subtitle mb-4 mt-4">Quick Withdraw</h6>
@@ -393,7 +392,7 @@ require_once("header.php");
 
                <div class="row pt-4 card-section">
                     <div class="col-lg-4 pt-3">
-                         <div class="card" style="width: 22rem;">
+                         <div class="card" style="width: 21rem;">
                               <div class="card-body bg-card-two">
                                    <h5 class="card-title bg-green"><i class="fa-solid fa-copyright fa-2x"></i> </h5>
                                    <h6 class="card-subtitle mb-4 mt-4">Legal Company</h6>
@@ -404,7 +403,7 @@ require_once("header.php");
                          </div>
                     </div>
                     <div class="col-lg-4 pt-3">
-                         <div class="card" style="width: 22rem;">
+                         <div class="card" style="width: 21rem;">
                               <div class="card-body bg-card-two">
                                    <h5 class="card-title bg-green"><i class="fa-solid fa-users fa-2x"></i> </h5>
                                    <h6 class="card-subtitle mb-4 mt-4">Referral Program</h6>
@@ -415,7 +414,7 @@ require_once("header.php");
                          </div>
                     </div>
                     <div class="col-lg-4 pt-3">
-                         <div class="card" style="width: 22rem;">
+                         <div class="card" style="width: 21rem;">
                               <div class="card-body bg-card-two">
                                    <h5 class="card-title bg-green"><i class="fa-solid fa-headset fa-2x"></i> </h5>
                                    <h6 class="card-subtitle mb-4 mt-4">24/7 Support</h6>
@@ -429,7 +428,7 @@ require_once("header.php");
 
                <div class="row pt-4 card-section">
                     <div class="col-lg-4 pt-3">
-                         <div class="card" style="width: 22rem;">
+                         <div class="card" style="width: 21rem;">
                               <div class="card-body bg-card-two">
                                    <h5 class="card-title bg-green"><i class="fa-solid fa-credit-card fa-2x"></i> </h5>
                                    <h6 class="card-subtitle mb-4 mt-4">DDOS Protection</h6>
@@ -440,7 +439,7 @@ require_once("header.php");
                          </div>
                     </div>
                     <div class="col-lg-4 pt-3">
-                         <div class="card" style="width: 22rem;">
+                         <div class="card" style="width: 21rem;">
                               <div class="card-body bg-card-two">
                                    <h5 class="card-title bg-green"><i class="fa-solid fa-server fa-2x"></i> </h5>
                                    <h6 class="card-subtitle mb-4 mt-4">Dedicated Server</h6>
@@ -451,7 +450,7 @@ require_once("header.php");
                          </div>
                     </div>
                     <div class="col-lg-4 pt-3">
-                         <div class="card" style="width: 22rem;">
+                         <div class="card" style="width: 21rem;">
                               <div class="card-body bg-card-two">
                                    <h5 class="card-title bg-green"> <i class="fa-solid fa-lock fa-2x"></i> </h5>
                                    <h6 class="card-subtitle mb-4 mt-4">SSL Secured</h6>
@@ -467,7 +466,7 @@ require_once("header.php");
 </section>
 
 <!-- FAQ section -->
-<section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+<section class="container-fluid" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
      <div class="container text-center text-light pt-5" id="scrollspyFaq">
           <div class="">
@@ -574,8 +573,8 @@ require_once("header.php");
                </div>
           </div>
 
-          <div class="container text-center pt-4" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-               <h2 id="scrollspypay">
+          <div class="container text-center pt-4">
+               <h2>
                     <em>What User Say About Us </em>
                </h2>
                <p class="mt-3">
@@ -651,8 +650,8 @@ require_once("header.php");
                </div>
           </div>
 
-          <div class="container text-center mt-5 pt-5">
-               <h6>Payment Gateway</h6>
+          <div class="container text-center mt-5 pt-5" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+               <h6 id="scrollspypay">Payment Gateway</h6>
                <h2 class="mb-4">
                     <em>Payment Methods We Accept</em>
                </h2>
@@ -714,6 +713,34 @@ require_once("header.php");
                               </div>
                               <div class="text-center w-100">
                                    <button type="submit" class="btn btn-green w-100 ">Login</button>
+                              </div>
+                         </form>
+                    </div>
+                    <div class="modal-footer">
+                         <p>
+                              <span class="text-start">New to Coins Max Profits? <a href="#" class="bg-green">Sign Up</a> </span>
+                         </p>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
+
+<!-- Modal for signup  -->
+<div class="container">
+     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+               <div class="modal-content login-modal text-light">
+                    <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Login your account</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                         <form>
+                              <div class="input-group">
+                                   <span class="input-group-text">First and last name</span>
+                                   <input type="text" aria-label="First name" class="form-control">
+                                   <input type="text" aria-label="Last name" class="form-control">
                               </div>
                          </form>
                     </div>

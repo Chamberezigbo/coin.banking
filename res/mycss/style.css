@@ -1,6 +1,7 @@
-* {
+body {
 	padding: 0px;
 	margin: 0px;
+     overflow-x: hidden;
 }
 
 nav {
@@ -161,6 +162,9 @@ footer .first-footer {
 footer .row .icon span:hover {
 	background-color: #ABE500;
 }
+.sign-up {
+     cursor: pointer;
+}
 
 .login-modal {
 	border: 2px solid #ABE500 !important;
@@ -176,6 +180,11 @@ footer .row .icon span:hover {
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 690px) {
+     body{
+          height: auto;
+          overflow-x: hidden !important;
+          width: 100%;
+     }
 	#small-screen {
 		padding-bottom: 70px;
 	}
@@ -195,7 +204,6 @@ footer .row .icon span:hover {
 		border: 1px solid #ace600 !important;
 		border-radius: 0px !important;
 		display: block;
-		padding-left: 50%;
 	}
 	.user-details .row .eye {
 		padding-right: 50px;
@@ -210,11 +218,10 @@ footer .row .icon span:hover {
 	}
 
 	.card-section{
-		padding-left: 40px;
+          padding-right: 60% !important;
 	}
 	.collapse-sec{
-		width: 24rem !important;
-		margin-bottom: ;
+		width: 22rem !important;
 	}
 	.collapse-sec span{
 		display: none;
