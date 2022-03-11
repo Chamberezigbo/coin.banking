@@ -24,39 +24,33 @@
                     <a class="navbar-brand" href="#">
                          <img src="res/img/logo.png" alt="" width="70" height="64">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button">
                          <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarScroll">
                          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                               <li class="nav-item text-uppercase">
-                                   <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                   <a class="nav-link active" aria-current="page" href="#">dashboard</a>
                               </li>
                               <li class="nav-item text-uppercase">
-                                   <a class="nav-link" href="#scrollspyHeading1">About</a>
+                                   <a class="nav-link" href="#scrollspyHeading1">deposit</a>
                               </li>
                               <li class="nav-item text-uppercase">
-                                   <a class="nav-link" href="#scrollspyPlan">Plan</a>
+                                   <a class="nav-link" href="#scrollspyPlan">withdraw</a>
                               </li>
                               <li class="nav-item text-uppercase">
-                                   <a class="nav-link" href="#scrollspytrust">feature</a>
+                                   <a class="nav-link" href="#scrollspytrust">referrals</a>
                               </li>
                               <li class="nav-item text-uppercase">
-                                   <a class="nav-link" href="#scrollspyFaq">Faq</a>
+                                   <a class="nav-link" href="#scrollspyFaq">report</a>
                               </li>
                               <li class="nav-item text-uppercase">
-                                   <a class="nav-link" href="#scrollspypay">Gateway</a>
-                              </li>
-                              <li class="nav-item text-uppercase">
-                                   <a class="nav-link" href="#">Contact</a>
+                                   <a class="nav-link" href="#scrollspypay">account</a>
                               </li>
                          </ul>
                          <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                               <li class="nav-item">
-                                   <button class="" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
-                              </li>
-                              <li class="nav-item text-uppercase">
-                                   <a class="nav-link sign-up" data-bs-toggle="modal" data-bs-target="#exampleModal2">sign up</a>
+                                   <button class="" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Out</button>
                               </li>
                               <li class="nav-item dropdown text-uppercase">
                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

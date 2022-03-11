@@ -279,10 +279,10 @@ require_once("header.php");
           <div class=" pt-5 text-light">
                <h2><em>Recent Deposit And Withdraw</em></h2>
           </div>
-          <div class="container mt-3 mb-3">
-               <div class="btn-group" role="group" aria-label="Basic example">
-                    <button type="button" class="btn left-btn px-5">Latest Deposite</button>
-                    <button type="button" class="btn btn-primary right-btn px-5">Latest Withdrew</button>
+          <div class="container mt-3 mb-3 text-center  ">
+               <div class="btn-group recent-btn" role="group" aria-label="Basic example">
+                    <button type="button" class="btn left-btn px-3">Latest Deposite</button>
+                    <button type="button" class="btn btn-primary right-btn px-3">Latest Withdrew</button>
                </div>
           </div>
 
@@ -473,7 +473,7 @@ require_once("header.php");
                <h2><em>Frequently Asked Questions</em></h2>
           </div>
           <div class="row pt-3">
-               <div class="col-lg-6 mt-4">
+               <div class="col-lg-6 mt-4 Faq-card">
                     <h5>
                          <button class="p-4 collapse-sec" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" style="width: 40rem;" aria-expanded="false" aria-controls="collapseExample">
                               When can i deposite/withdrew from my investment account? <span class="f1">^</span>
@@ -486,7 +486,7 @@ require_once("header.php");
                     </div>
                </div>
 
-               <div class="col-lg-6 mt-4">
+               <div class="col-lg-6 mt-4 Faq-card">
                     <h5>
                          <button class="p-4 collapse-sec" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" style="width: 40rem;" aria-expanded="false" aria-controls="collapseExample">
                               How do i check my account ballance? <span class="f1">^</span>
@@ -500,7 +500,7 @@ require_once("header.php");
                </div>
           </div>
           <div class="row">
-               <div class="col-lg-6 mt-4">
+               <div class="col-lg-6 mt-4 Faq-card">
                     <h5>
                          <button class="p-4 collapse-sec" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" style="width: 40rem;" aria-expanded="false" aria-controls="collapseExample">
                               I forgot my password what should i do? <span class="f1">^</span>
@@ -512,7 +512,7 @@ require_once("header.php");
                          </div>
                     </div>
                </div>
-               <div class="col-lg-6 mt-4">
+               <div class="col-lg-6 mt-4 Faq-card">
                     <h5>
                          <button class="p-4 collapse-sec" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" style="width: 40rem;" aria-expanded="false" aria-controls="collapseExample">
                               How will i know that the withdrawal has been successful? <span class="f1">^</span>
@@ -711,8 +711,8 @@ require_once("header.php");
                                    <label for="exampleInputPassword1" class="form-label">Password</label>
                                    <input type="password" class="form-control" id="exampleInputPassword1">
                               </div>
-                              <div class="text-center w-100">
-                                   <button type="submit" class="btn btn-green w-100 ">Login</button>
+                              <div class="text-center mt-5 ">
+                                   <button type="submit" class="btn btn-green mt-1 w-100">Login</button>
                               </div>
                          </form>
                     </div>
@@ -732,15 +732,34 @@ require_once("header.php");
           <div class="modal-dialog modal-dialog modal-dialog-scrollable">
                <div class="modal-content login-modal text-light">
                     <div class="modal-header">
-                         <h5 class="modal-title" id="exampleModalLabel">Login your account</h5>
+                         <h5 class="modal-title" id="exampleModalLabel">Signup your account</h5>
                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                          <form>
-                              <div class="input-group">
-                                   <span class="input-group-text">First and last name</span>
-                                   <input type="text" aria-label="First name" class="form-control">
-                                   <input type="text" aria-label="Last name" class="form-control">
+                              <div class="mb-3">
+                                   <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                                   <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                   <div id="emailHelp" class="form-text">Please put in your full-name.</div>
+                              </div>
+                              <div class="mb-3">
+                                   <label for="exampleInputEmail1" class="form-label">Email</label>
+                                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              </div>
+                              <div class="mb-3">
+                                   <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                                   <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              </div>
+                              <div class="mb-3">
+                                   <label for="exampleInputPassword1" class="form-label">Password</label>
+                                   <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3">
+                                   <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                                   <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="text-center mt-5 ">
+                                   <button type="submit" class="btn btn-green mt-1 w-100">Login</button>
                               </div>
                          </form>
                     </div>

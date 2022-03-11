@@ -183,7 +183,6 @@ footer .row .icon span:hover {
      body{
           height: auto;
           overflow-x: hidden !important;
-          width: 100%;
      }
 	#small-screen {
 		padding-bottom: 70px;
@@ -216,10 +215,18 @@ footer .row .icon span:hover {
 	section .recent-updateSection .btn-group  .left-btn{
 		padding: 1px 50px 1px 50px !important;
 	}
-
-	.card-section{
-          padding-right: 60% !important;
+     .recent-btn .right-btn{
+          display: none;
+     }
+     .recent-btn .left-btn {
+          border-radius: 10px;
+     }
+	.card-section .card{
+          width: 100% !important;
 	}
+     .Faq-card button{ 
+          max-width: 100% !important;
+     }
 	.collapse-sec{
 		width: 22rem !important;
 	}
