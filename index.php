@@ -1,10 +1,23 @@
 <?php
 require_once("header.php");
 ?>
+
 <!-- my background image -->
 <div class="container-fluid landing-section">
      <div class="container pt-5">
           <div class="container pt-5">
+               <?php if (!empty($response)) { ?>
+                    <div class="container position-relative">
+                         <div class="alert alert-success d-flex align-items-center position-absolute top-0 end-0 " id="alertActivation" role="alert">
+                              <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
+                                   <use xlink:href="#check-circle-fill" />
+                              </svg>
+                              <div>
+                                   <?php echo $response['message']; ?>
+                              </div>
+                         </div>
+                    </div>
+               <?php } ?>
                <div class="pt-5 text-center" id="small-screen">
                     <h1 class="display-4 pt-5">
                          <strong> <em>Generate passive income while working towards portfolio diversification </em> </strong>
@@ -701,18 +714,18 @@ require_once("header.php");
                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                         <form>
+                         <form action="login-inc.php" method="post" name="loginForm">
                               <div class="mb-3">
                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                   <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
+                                   <div id="emailHelp" class="form-text">Enter your email here.</div>
                               </div>
                               <div class="mb-3">
                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                   <input type="password" class="form-control" id="exampleInputPassword1">
+                                   <input type="password" class="form-control" name="logPassword" id="logPassword" required>
                               </div>
                               <div class="text-center mt-5 ">
-                                   <button type="submit" class="btn btn-green mt-1 w-100">Login</button>
+                                   <button type="submit" name="login" class="btn btn-green mt-1 w-100">Login</button>
                               </div>
                          </form>
                     </div>
@@ -736,42 +749,50 @@ require_once("header.php");
                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                         <form>
+                         <span class="text-danger align-middle error" id="errorMsg"></span>
+                         <form action="register-inc.php" method="post" name="sign-up-form" id="sign-up-form" role="form" enctype="multipart/form-data">
                               <div class="mb-3">
-                                   <label for="exampleInputEmail1" class="form-label">Full Name</label>
-                                   <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                   <div id="emailHelp" class="form-text">Please put in your full-name.</div>
+                                   <label for="exampleInputEmail1" class="form-label">First Name</label>
+                                   <input type="text" name="firstName" class="form-control" id="firstName" aria-describedby="emailHelp" required>
+                                   <div id="emailHelp" class="form-text">Please put in your first-name.</div>
+                              </div>
+                              <div class="mb-3">
+                                   <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                                   <input type="text" name="lastName" class="form-control" id="lastName" aria-describedby="emailHelp" required>
+                                   <div id="emailHelp" class="form-text">Please put in your last-name.</div>
                               </div>
                               <div class="mb-3">
                                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                   <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                               </div>
                               <div class="mb-3">
                                    <label for="exampleInputEmail1" class="form-label">Phone Number</label>
-                                   <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                   <input type="tel" name="phone" placeholder="your phone number" class="form-control" id="phone" aria-describedby="emailHelp" required>
+                                   <div id="emailHelp" class="form-text">Please start with country code</div>
                               </div>
                               <div class="mb-3">
                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                   <input type="password" class="form-control" id="exampleInputPassword1">
+                                   <input type="password" name="pass" class="form-control" id="password" required>
                               </div>
                               <div class="mb-3">
                                    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-                                   <input type="password" class="form-control" id="exampleInputPassword1">
+                                   <input type="password" name="confirmPass" class="form-control" id="confirmPass" required>
                               </div>
                               <div class="text-center mt-5 ">
-                                   <button type="submit" class="btn btn-green mt-1 w-100">Login</button>
+                                   <button type="submit" name="submitRegister" class="btn btn-green mt-1 w-100">Signup</button>
                               </div>
                          </form>
                     </div>
                     <div class="modal-footer">
                          <p>
-                              <span class="text-start">New to Coins Max Profits? <a href="#" class="bg-green">Sign Up</a> </span>
+                              <span class="text-start">already registered to Coins Max Profits? <a href="#" class="bg-green">Sign In</a> </span>
                          </p>
                     </div>
                </div>
           </div>
      </div>
 </div>
+
 
 <?php
 require_once("footer.php")

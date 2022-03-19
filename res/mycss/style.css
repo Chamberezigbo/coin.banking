@@ -173,7 +173,42 @@ footer .row .icon span:hover {
 .login-modal .modal-footer {
 	text-align: center !important;
 }
- 	
+.error{
+     color: red;
+     font-weight: 400;
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+/* style for my dashboard section */
+
+.dashboard-home {
+	background-image: linear-gradient(rgba(7, 7, 87, 0.822), rgba(32, 32, 78, 0.856)),
+		url("../img/dashbordbg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	color: white;
+}
+.bg-card-green {
+     background-color: #ABE500 !important;
+     color:black;
+}
+.bg-card-blue {
+     background-color: #20204E !important;
+     color:white;
+}
+.deposit-card{
+     background-color: #131340 !important;
+     color: white;
+     border: 3px solid #ABE500 !important;
+}
+.table-responsive table thead{
+     background-color: #ABE500 !important;
+     color: #131340;
+}
 
 
 

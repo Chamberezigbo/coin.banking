@@ -1,3 +1,7 @@
+<?php
+session_start();
+require('register-inc.php')
+?>
 <!doctype html>
 <html lang="en">
 
@@ -6,8 +10,8 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <!-- my stylesheet -->
-     <link rel="stylesheet" href="res/mycss/style.css?v=4">
-     <link rel="stylesheet" href="res/mycss/global-style.css?v=4">
+     <link rel="stylesheet" href="res/mycss/style.css?v=5">
+     <link rel="stylesheet" href="res/mycss/global-style.css?v=5">
      <!-- fontawasome -->
      <link rel="stylesheet" href="res/fontawesome-free-6.0.0-web/css/all.css">
      <!-- Bootstrap CSS -->
@@ -30,7 +34,7 @@
                     <div class="collapse navbar-collapse" id="navbarScroll">
                          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                               <li class="nav-item text-uppercase">
-                                   <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                   <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                               </li>
                               <li class="nav-item text-uppercase">
                                    <a class="nav-link" href="#scrollspyHeading1">About</a>
