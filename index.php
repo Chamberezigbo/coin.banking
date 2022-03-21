@@ -6,14 +6,17 @@ require_once("header.php");
 <div class="container-fluid landing-section">
      <div class="container pt-5">
           <div class="container pt-5">
-               <?php if (!empty($response)) { ?>
+               <?php require_once("register-inc.php"); ?>
+               <?php require_once("register-inc.php"); ?>
+               <?php if (isset($_SESSION['error']) &&  $_SESSION['error'] == 1) { ?>
                     <div class="container position-relative">
-                         <div class="alert alert-success d-flex align-items-center position-absolute top-0 end-0 " id="alertActivation" role="alert">
+                         <div class="alert alert-danger d-flex align-items-center position-absolute top-0 end-0 " id="alertActivation" role="alert">
                               <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
                                    <use xlink:href="#check-circle-fill" />
                               </svg>
                               <div>
-                                   <?php echo $response['message']; ?>
+                                   <?php echo $_SESSION['errorMassage']; ?>
+                                   <?php $_SESSION['error'] = 0   ?>
                               </div>
                          </div>
                     </div>
@@ -24,13 +27,13 @@ require_once("header.php");
                     </h1>
                     <p class="pt-1">
                          <em>
-                              Access alternative investments opportunities vetted by Coins Max Profit’s experts,<br>
+                              Access alternative investments opportunities vetted by Airships investment experts,<br>
                               across numerous asset classes, such as Art, Commercial, Real Estate and more
                          </em>
                     </p>
                </div>
                <div class="pt-1 text-center">
-                    <button type="button" class="btn btn-primary btn-lg ">Warning</button>
+                    <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#exampleModal">Start now</button>
                </div>
           </div>
      </div>
@@ -84,11 +87,11 @@ require_once("header.php");
                     <div class="col-lg-6 col-sm-12">
                          <div>
                               <h2>
-                                   <span class="h5">Welcome Coins Max Profits</span><br>
-                                   <em>About Coins Max Profits Investment</em>
+                                   <span class="h5">Welcome Airships investment</span><br>
+                                   <em>About Airships investment</em>
                               </h2>
                               <p>
-                                   We are an international financial management company engaged in investment activities, which are related to trading on financial markets and cryptocurrency exchanges performed by qualified professional traders.
+                                   We are an international financial management company engaged in investment activities, which are related to trading on financial markets and aeronautic and marine commodities exchanges performed by qualified professional traders.
                                    Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service, allowing us to automate and simplify the relations between
                                    the investors and the trustees. We work towards increasing your profit margin by profitable investment. We look forward to you being part of our community.
                               </p>
@@ -243,7 +246,7 @@ require_once("header.php");
 <section class="container-fluid">
      <div class="container py-5 text-center text-light">
           <div class="container text-center ">
-               <h2>How Coins Max Profits Works</h2>
+               <h2>How Airships investment Works</h2>
                <p>Get involved in our tremendous platform and Invest. We will utilize your <br>
                     money and give you profit in your wallet automatically. Here's how
                     you <br> can earn with four easy steps
@@ -731,7 +734,7 @@ require_once("header.php");
                     </div>
                     <div class="modal-footer">
                          <p>
-                              <span class="text-start">New to Coins Max Profits? <a href="#" class="bg-green">Sign Up</a> </span>
+                              <span class="text-start">New to Airships investment? <a href="#" class="bg-green">Sign Up</a> </span>
                          </p>
                     </div>
                </div>
@@ -785,7 +788,7 @@ require_once("header.php");
                     </div>
                     <div class="modal-footer">
                          <p>
-                              <span class="text-start">already registered to Coins Max Profits? <a href="#" class="bg-green">Sign In</a> </span>
+                              <span class="text-start">already registered to Airships investment? <a href="#" class="bg-green">Sign In</a> </span>
                          </p>
                     </div>
                </div>

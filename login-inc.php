@@ -9,7 +9,10 @@ if (isset($_POST['login'])) {
      $stmt = mysqli_stmt_init($conn);
 
      if (!mysqli_stmt_prepare($stmt, $sql)) {
-          echo "error accord with sql";
+          session_start();
+          $_SESSION['error'] = 1;
+          $_SESSION['errorMassage'] = " Error occurred with your login";
+          header("Location:index.php");
           exit();
      } else {
           mysqli_stmt_bind_param($stmt, "s", $email);
@@ -21,16 +24,25 @@ if (isset($_POST['login'])) {
                     $_SESSION['auth'] = true;
                     $_SESSION['start'] = time();
                     $_SESSION['expire'] = $_SESSION['start'] + (40 * 60);
+                    $_SESSION['error'] = 0;
                     $_SESSION['sessionId'] = $row['id'];
                     $_SESSION['verified'] = $row['verified'];
                     $_SESSION['firstName'] = $row['firstName'];
                     $_SESSION['lastName'] = $row['lastName'];
-                    echo 'Congrats!';
+                    $_SESSION['otpCode'] = $row['otp'];
+
+                    header("Location:dashbord.php");
                } else {
-                    echo 'Invalid password.';
+                    session_start();
+                    $_SESSION['error'] = 1;
+                    $_SESSION['errorMassage'] = " Invalid password.";
+                    header("Location:index.php");
                }
           } else {
-               echo 'invalid user';
+               session_start();
+               $_SESSION['error'] = 1;
+               $_SESSION['errorMassage'] = " Email or password not valid";
+               header("Location:index.php");
           }
 
 

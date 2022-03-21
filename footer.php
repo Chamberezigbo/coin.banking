@@ -39,7 +39,7 @@
     <script>
          setInterval(function() {
               let alertDev = document.getElementById('alertActivation').classList.add("d-none")
-         }, 2000);
+         }, 3500);
     </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

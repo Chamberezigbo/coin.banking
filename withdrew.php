@@ -60,34 +60,49 @@ require_once("dash_header.php");
           <div class="container">
                <div class="row pt-5">
                     <div class="col-lg-4">
-                         <div class="card deposit-card mb-3 ">
-                              <img src="./res/img/bank-988164.png" class="card-img-top " alt="...">
+                         <div class="card deposit-card mb-3 text-center">
+                              <div class="py-5">
+                                   <h4>Bank Wire Transfer</h4>
+                                   <img src="./res/img/bank-988164.png" class="card-img-top " alt="...">
+                              </div>
+
                               <div class="card-body text-center">
-                                   <h5 class="card-title">Pay Manually</h5>
-                                   <p class="card-text">BitCoin (Manual Payment)</p>
-                                   <button class="btn btn-success p-2 mt-1">Deposit</button>
+                                   <h5 class="card-title">Limit : 50.00 - 100,000.00 USD</h5>
+                                   <p class="card-text">Charge - 0.00 USD + 0.00%</p>
+                                   <p class="card-text">Processing Time - 30 Mins</p>
+                                   <div class="row">
+                                        <button class="btn btn-success p-2 mt-1" data-bs-toggle="modal" data-bs-target="#exampleModalToggleBank  ">Withdraw</button>
+                                   </div>
                               </div>
                          </div>
                     </div>
 
                     <div class="col-lg-4">
-                         <div class="card deposit-card mb-3 ">
+                         <div class="card deposit-card mb-3 text-center">
+                              <h4>BitCoin</h4>
                               <img src="./res/img/bitcoin.png" class="card-img-top " alt="...">
                               <div class="card-body text-center">
-                                   <h5 class="card-title">Pay Manually</h5>
-                                   <p class="card-text">BitCoin (Manual Payment)</p>
-                                   <button class="btn btn-success mt-1 p-2">Deposit</button>
+                                   <h5 class="card-title">Limit : 50.00 - 100,000.00 USD</h5>
+                                   <p class="card-text">Charge - 0.00 USD + 0.00%</p>
+                                   <p class="card-text">Processing Time - 30 Mins</p>
+                                   <div class="row">
+                                        <button class="btn btn-success p-2 mt-1" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Withdraw</button>
+                                   </div>
                               </div>
                          </div>
                     </div>
 
                     <div class="col-lg-4">
-                         <div class="card deposit-card mb-3 ">
+                         <div class="card deposit-card mb-3 text-center">
+                              <h4>Ethereum</h4>
                               <img src="./res/img/ethereum.png" class="card-img-top " alt="...">
                               <div class="card-body text-center">
-                                   <h5 class="card-title">Pay Manually</h5>
-                                   <p class="card-text">BitCoin (Manual Payment)</p>
-                                   <button class="btn btn-success p-2 mt-1">Deposit</button>
+                                   <h5 class="card-title">Limit : 50.00 - 100,000.00 USD</h5>
+                                   <p class="card-text">Charge - 0.00 USD + 0.00%</p>
+                                   <p class="card-text">Processing Time - 30 Mins</p>
+                                   <div class="row">
+                                        <button class="btn btn-success p-2 mt-1" data-bs-toggle="modal" data-bs-target="#exampleModalToggleEth">Withdraw</button>
+                                   </div>
                               </div>
                          </div>
                     </div>
@@ -95,6 +110,92 @@ require_once("dash_header.php");
           </div>
           </div>
      </section>
+
+     <div class="container">
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Withdraw Via BitCoin</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              <h6>
+                                   Withdraw Limit: 50.00 - 100,000.00 USD
+
+                                   Charge: 0.00 USD <br>
+
+                                   Enter Amount*
+                              </h6>
+                              <div class="input-group mb-3">
+                                   <span class="input-group-text">$</span>
+                                   <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" required>
+                                   <span class="input-group-text">USD</span>
+                              </div>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <button class="btn btn-primary">Continue</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="modal fade" id="exampleModalToggleBank" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Withdraw Via Bank Wire Transfer</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              <h6>
+                                   Withdraw Limit: 1,000.00 - 100,000.00 USD
+
+                                   Charge: 0.00 USD + 1.00 %<br>
+
+                                   Enter Amount*
+                              </h6>
+                              <div class="input-group mb-3">
+                                   <span class="input-group-text">$</span>
+                                   <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" required>
+                                   <span class="input-group-text">USD</span>
+                              </div>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <button class="btn btn-primary">Continue</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="modal fade" id="exampleModalToggleEth" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Withdraw Via Ethereum</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              <h6>
+                                   Withdraw Limit: 50.00 - 100,000.00 USD
+
+                                   Charge: 0.00 USD <br>
+
+                                   Enter Amount*
+                              </h6>
+                              <div class="input-group mb-3">
+                                   <span class="input-group-text">$</span>
+                                   <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" required>
+                                   <span class="input-group-text">USD</span>
+                              </div>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <button class="btn btn-primary">Continue</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
 
 
      <?php

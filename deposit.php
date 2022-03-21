@@ -77,14 +77,86 @@ require_once("dash_header.php");
                                    <h5 class="card-title">Pay Manually</h5>
                                    <p class="card-text">BitCoin (Manual Payment)</p>
                                    <div class="row">
-                                        <button class="btn btn-success p-2 mt-1">Deposit</button>
+                                        <button class="btn btn-success p-2 mt-1" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Deposit</button>
                                    </div>
                               </div>
                          </div>
                     </div>
                </div>
-          </div>
      </section>
+
+     <div class="container">
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Payment By BitCoin (Manual Payment)</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              <h6>
+                                   Deposit Limit: 50.00 - 50,000.00 USD
+
+                                   Charge: 0.00 USD <br>
+
+                                   Enter Amount*
+                              </h6>
+                              <div class="input-group mb-3">
+                                   <span class="input-group-text">$</span>
+                                   <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" required>
+                                   <span class="input-group-text">USD</span>
+                              </div>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel2">Payment Preview</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              <ul class="list-group text-center ">
+                                   <li class="list-group-item login-modal text-light">Payable:</li>
+                                   <li class="list-group-item login-modal text-light">Charge: 0.00 USD</li>
+                                   <li class="list-group-item login-modal text-light">Payable:</li>
+                                   <li class="list-group-item login-modal text-light">Conversion Rate: 1 USD = 0.00 BTC</li>
+                              </ul>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"> Back</button>
+                              <button type="button" class="btn btn-primary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel2">Deposit Confirm</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              Wallet Address:<span class="text-danger"> 1EHkuYH7sTwrzntp8akqQqoi4FFEjN6P7L </span>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <form action="dashbord.php">
+                                   <button class="btn btn-primary" type="submit">Payed</button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
 
      <?php
      require_once("footer.php");

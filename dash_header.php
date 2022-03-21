@@ -27,7 +27,8 @@ if (!$_SESSION['auth']) {
                <link rel=" stylesheet" href="res/fontawesome-free-6.0.0-web/css/all.css">
                <!-- Bootstrap CSS -->
                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-               <title>Hello, world!</title>
+               <title>Airships investment</title>
+               <link rel="shortcut icon" href="/favicon.ico" />
           </head>
 
           <body>
@@ -64,7 +65,9 @@ if (!$_SESSION['auth']) {
                                    </ul>
                                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                                         <li class="nav-item">
-                                             <button class="" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="sign.out.php">Sign Out</a></button>
+                                             <form action="sign.out.php">
+                                                  <button class="submit" type="submit">Sign Out</button>
+                                             </form>
                                         </li>
                                         <li class="nav-item dropdown text-uppercase">
                                              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
