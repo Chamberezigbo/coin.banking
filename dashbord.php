@@ -12,7 +12,6 @@ require_once("dash_header.php");
                     </div>
                     <div class="card-body">
                          <h5 class="card-title">A code was sent to your email check your inbox</h5>
-                         <p class="card-text">Enter your the code in the input box</p>
 
                          <div class="row g-3 align-items-center">
                               <div class="col-lg-12">
@@ -26,7 +25,7 @@ require_once("dash_header.php");
                                    <span id="passwordHelpInline" class="form-text">
                                         Please activate you account to enjoy our offer
                                    </span><br>
-                                   <button type="submit" class="btn btn-primary" name="activate">Activate</button>
+                                   <button type="submit" class="btn btn-primary mt-5" name="activate">Activate</button>
                               </div>
                          </div>
                     </div>
@@ -66,7 +65,7 @@ require_once("dash_header.php");
                               <div class="card bg-card-green">
                                    <div class="card-body">
                                         <p class="card-text text-center">Total Balance</p>
-                                        <h5 class="card-title text-center h2">$ 0.00</h5>
+                                        <h5 class="card-title text-center h2">$ <?= $_SESSION['balance']; ?> </h5>
                                    </div>
                               </div>
                          </div>

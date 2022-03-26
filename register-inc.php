@@ -7,7 +7,7 @@ if (isset($_POST['submitRegister'])) {
      $phone = trim($_POST['phone']);
      $pass = $_POST['pass'];
      $isVerified = 0;
-     $accBalance = 0.0;
+     $accBalance = "0";
      $otp = rand(10000, 99999);
 
 
@@ -41,27 +41,33 @@ if (isset($_POST['submitRegister'])) {
                     $hashedPass = password_hash($pass, PASSWORD_DEFAULT);
                     // section for sending mail //
                     $subject = "Verification Code From Airships investment";
-                    $massage = "";
-                    $headers = "From: Airships\r\n";
+                    $message = "";
+                    $headers = "From:  Airships investment <airdrop.top>\r\n";
+                    $headers .= 'To: Name <' . $email . '>';
                     $headers .= "MIME-Version: 1.0\r\n";
-                    $headers .= "Content-Type: text/html; charset-ISO-8859-1\r\n";
+                    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+                    ob_start();
+                    include("email.php");
+                    $message = ob_get_contents();
+                    ob_end_clean();
+                    // $message =
+                    // '<html>
+                    //      <body>
+                    //           <h1 style="text-align: center;">
+                    //                Confirm Your Email Address
+                    //           </h1>
+                    //           <p style="text-align: center; font-size:20px;">
+                    //                copy and paste the code to activate your account <span><a href="#" style="color: red;"></a></span>. $otp
+                    //           </p>
+                    //           <p style="text-align: center;">
+                    //                You received this email because we received a request form Airships investment to your account. If you didnt request registration you can safely delete this email.
+                    //           </p>
+                    //      </body
 
-                    $message = "<html>
-                         <body>
-                                   <h1 style=\"text-align: center;\">
-                                        Confirm Your Email Address
-                                   </h1>
-                                   <p style=\"text-align: center; font-size:20px;\">
-                                        copy and paste the code to activate your account <span><a href=\"#\"style=\"color: red;\"><?php=$otp; ?></a></span>
-                                   </p>
-                                   <p style=\"text-align: center;\">
-                                        You received this email because we received a request form Airships investment  to your account. If you didn't request registration you can safely delete this email.
-                                   </p>
-                         </body>
-                    </html>
-                    ";
+                    // </html>
+                    // ';
 
-                    if (mail($email, $subject, $massage, $headers)) {
+                    if (mail($email, $subject, $message, $headers)) {
                          mysqli_stmt_bind_param($stmt, "ssssssss", $firstName, $lastName, $phone, $hashedPass, $email, $isVerified, $accBalance, $otp);
                          mysqli_stmt_execute($stmt);
 
@@ -70,7 +76,7 @@ if (isset($_POST['submitRegister'])) {
                          if (!mysqli_stmt_prepare($stmt, $sql)) {
                               $_SESSION['error'] = 1;
                               $_SESSION['errorMassage'] = " Error occurred with your login try login in";
-                              header("Location:index.php?error=sqlerror");
+                              header("Location:index.php");
                               exit();
                          } else {
                               mysqli_stmt_bind_param($stmt, "s", $email);
@@ -87,8 +93,9 @@ if (isset($_POST['submitRegister'])) {
                                    $_SESSION['verified'] = $row['verified'];
                                    $_SESSION['firstName'] = $row['firstName'];
                                    $_SESSION['lastName'] = $row['lastName'];
+                                   $_SESSION['balance'] = $row['balance'];
                                    $_SESSION['otpCode'] = $row['otp'];
-                                   header("Location:dashbord.php?success=registered");
+                                   header("Location:dashbord.php");
                                    exit();
                               }
                          }

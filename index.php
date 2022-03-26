@@ -39,6 +39,11 @@ require_once("header.php");
      </div>
 </div>
 
+<!-- whatsapp contact -->
+<a class="whats-app" href="http://wa.me/+13474865322" target="_blank">
+     <i class="fa-brands fa-whatsapp my-float"></i>
+</a>
+
 <!-- users section -->
 <div class="user-details container-fluid">
      <div class="container text-center  pt-5 pb-5">

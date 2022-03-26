@@ -72,7 +72,7 @@ require_once("dash_header.php");
                <div class="row pt-5">
                     <div class="col-lg-4 mx-auto">
                          <div class="card deposit-card mb-3 ">
-                              <img src="./res/img/bitcoin.png" class="card-img-top " alt="...">
+                              <img src="./res/img/bitcoin.png" class="card-img-top " alt="..." height="410vh">
                               <div class="card-body text-center">
                                    <h5 class="card-title">Pay Manually</h5>
                                    <p class="card-text">BitCoin (Manual Payment)</p>
@@ -82,9 +82,34 @@ require_once("dash_header.php");
                               </div>
                          </div>
                     </div>
+                    <div class="col-lg-4 mx-auto">
+                         <div class="card deposit-card mb-3 ">
+                              <img src="./res/img/litecoin.jpg" class="card-img-top " alt="..." height="410vh">
+                              <div class="card-body text-center">
+                                   <h5 class="card-title">Pay Manually</h5>
+                                   <p class="card-text">LitCoin (Manual Payment)</p>
+                                   <div class="row">
+                                        <button class="btn btn-success p-2 mt-1" data-bs-toggle="modal" data-bs-target="#exampleModalToggleForLitCoin">Deposit</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto">
+                         <div class="card deposit-card mb-3 ">
+                              <img src="./res/img/usdt.jpg" class="card-img-top " alt="..." height="410vh">
+                              <div class="card-body text-center">
+                                   <h5 class="card-title">Pay Manually</h5>
+                                   <p class="card-text">USDT (Manual Payment)</p>
+                                   <div class="row">
+                                        <button class="btn btn-success p-2 mt-1" data-bs-toggle="modal" data-bs-target="#exampleModalToggleForUsdt">Deposit</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
                </div>
      </section>
 
+     <!-- model for btc payment for btc -->
      <div class="container">
           <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered ">
@@ -123,9 +148,9 @@ require_once("dash_header.php");
                          </div>
                          <div class="modal-body">
                               <ul class="list-group text-center ">
-                                   <li class="list-group-item login-modal text-light">Payable:</li>
+                                   <li class="list-group-item login-modal text-light">Payable:50,00 -50,000,00 USD</li>
                                    <li class="list-group-item login-modal text-light">Charge: 0.00 USD</li>
-                                   <li class="list-group-item login-modal text-light">Payable:</li>
+                                   <li class="list-group-item login-modal text-light">Payable:50,00 -50,000,00 USD</li>
                                    <li class="list-group-item login-modal text-light">Conversion Rate: 1 USD = 0.00 BTC</li>
                               </ul>
                          </div>
@@ -156,6 +181,152 @@ require_once("dash_header.php");
                </div>
           </div>
      </div>
+
+     <!-- model payment for litCoin -->
+     <div class="container">
+          <div class="modal fade" id="exampleModalToggleForLitCoin" aria-hidden="true" aria-labelledby="exampleModalToggleForLitCoin" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Payment By LitCoin (Manual Payment)</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              <h6>
+                                   Deposit Limit: 50.00 - 50,000.00 USD
+
+                                   Charge: 0.00 USD <br>
+
+                                   Enter Amount*
+                              </h6>
+                              <div class="input-group mb-3">
+                                   <span class="input-group-text">$</span>
+                                   <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" required>
+                                   <span class="input-group-text">USD</span>
+                              </div>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggleLitCoin2" data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="modal fade" id="exampleModalToggleLitCoin2" aria-hidden="true" aria-labelledby="exampleModalToggleLitCoin2" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel2">Payment Preview</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              <ul class="list-group text-center ">
+                                   <li class="list-group-item login-modal text-light">Payable:50,00 -50,000,00 USD</li>
+                                   <li class="list-group-item login-modal text-light">Charge: 0.00 USD</li>
+                                   <li class="list-group-item login-modal text-light">Payable:50,00 -50,000,00 USD</li>
+                                   <li class="list-group-item login-modal text-light">Conversion Rate: 1 USD = 0.00 LTC</li>
+                              </ul>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"> Back</button>
+                              <button type="button" class="btn btn-primary" data-bs-target="#exampleModalToggleLitCoin3" data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="modal fade" id="exampleModalToggleLitCoin3" aria-hidden="true" aria-labelledby="exampleModalToggleLitCoin3" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel2">Deposit Confirm</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              Wallet Address:<span class="text-danger"> LamqKWdFs86ZaKhh57aGjTQH8NS4Yyn8Pj </span>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <form action="dashbord.php">
+                                   <button class="btn btn-primary" type="submit">Payed</button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- end  of litCoin model-->
+
+     <!-- model for USDT -->
+     <div class="container">
+          <div class="modal fade" id="exampleModalToggleForUsdt" aria-hidden="true" aria-labelledby="exampleModalToggleForUsdt" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered ">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Payment By LitCoin (Manual Payment)</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              <h6>
+                                   Deposit Limit: 50.00 - 50,000.00 USD
+
+                                   Charge: 0.00 USD <br>
+
+                                   Enter Amount*
+                              </h6>
+                              <div class="input-group mb-3">
+                                   <span class="input-group-text">$</span>
+                                   <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" required>
+                                   <span class="input-group-text">USD</span>
+                              </div>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggleUsdt2" data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="modal fade" id="exampleModalToggleUsdt2" aria-hidden="true" aria-labelledby="exampleModalToggleUsdt2" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel2">Payment Preview</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              <ul class="list-group text-center ">
+                                   <li class="list-group-item login-modal text-light">Payable:50,00 -50,000,00 USD</li>
+                                   <li class="list-group-item login-modal text-light">Charge: 0.00 USD</li>
+                                   <li class="list-group-item login-modal text-light">Payable:50,00 -50,000,00 USD</li>
+                                   <li class="list-group-item login-modal text-light">Conversion Rate: 1 USD = 0.00 USDT</li>
+                              </ul>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal"> Back</button>
+                              <button type="button" class="btn btn-primary" data-bs-target="#exampleModalToggleUsdt3" data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="modal fade" id="exampleModalToggleUsdt3" aria-hidden="true" aria-labelledby="exampleModalToggleUsdt3" tabindex="-1">
+               <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content login-modal text-light">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel2">Deposit Confirm</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+                         <div class="modal-body">
+                              Wallet Address:<span class="text-danger"> TSDxTW9j7x3CznwpaR6TufGJeTbW7gusS9 (TRC20) </span>
+                         </div>
+                         <div class="modal-footer mt-5">
+                              <form action="dashbord.php">
+                                   <button class="btn btn-primary" type="submit">Payed</button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
 
 
      <?php
