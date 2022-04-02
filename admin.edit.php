@@ -50,15 +50,12 @@ if (isset($_GET['updateId'])) {
           <form action="" method="POST">
                <div class="row align-items-center d-flex justify-content-center">
                     <div class="col-auto">
-                         <label for="inputPassword6" class="col-form-label">Password</label>
+                         <label for="inputPassword6" class="col-form-label">Enter amount</label>
                     </div>
                     <div class="col-auto">
                          <input type="tel" id="inputPassword6" class="form-control" name="enteredBal" aria-describedby="passwordHelpInline" required>
                     </div>
-                    <div class="col-auto">
-                         <button type="submit" name="update" class="btn btn-primary">Primary</button>
-                    </div>
-
+                         <button type="submit" name="update" class="btn btn-primary mt-5">Save</button>
                </div>
 
           </form>

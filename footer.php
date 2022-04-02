@@ -2,7 +2,7 @@
          <div class="container pt-5 ">
               <div class="row mb-3 first-footer">
                    <div class="col-lg-6 text-center">
-                        <img src="res/img/logo.png" class="rounded float-start" alt="...">
+                        <img src="res/img/logo1.png" class="rounded float-start" alt="..." width="80px">
                    </div>
                    <div class="col-lg-6 text-light text-end">
                         <h5><span>Copyright</span> <span>Terms &amp; Condition</span> <span> Privacy&amp; Policy</span></h5>
