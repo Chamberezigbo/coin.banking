@@ -22,9 +22,12 @@ require_once("header.php");
                     </div>
                <?php } ?>
                <div class="pt-5 text-center" id="small-screen">
-                    <h1 class="display-4 pt-5">
-                         <strong> <em>Generate passive income while working towards portfolio diversification </em> </strong>
-                    </h1>
+                    <p class="display-1">
+                         <strong><em>Airships</em></strong>
+                    </p>
+                    <p class="display-6">
+                         <em>Generate passive income while working towards portfolio diversification </em>
+                    </p>
                     <p class="pt-1">
                          <em>
                               Access alternative investments opportunities vetted by Airships investment experts,<br>
@@ -33,7 +36,7 @@ require_once("header.php");
                     </p>
                </div>
                <div class="pt-1 text-center">
-                    <button type="button" class="btn btn-primary btn-lg " data-bs-toggle="modal" data-bs-target="#exampleModal">Start now</button>
+                    <button type="button" class="btn btn-outline-success btn-lg " data-bs-toggle="modal" data-bs-target="#exampleModal">Start now</button>
                </div>
           </div>
      </div>
@@ -47,13 +50,13 @@ require_once("header.php");
 <!-- users section -->
 <div class="user-details container-fluid">
      <div class="container text-center  pt-5 pb-5">
-          <div class="row p-2 row-cols-1 pt-4 rounded-pill box">
+          <div class="row p-2 row-cols-1 pt-4 rounded-pill box1">
 
                <div class="col-lg-4  ps-5 eye">
                     <div class="col-sm-12">
-                         <i class="fa-solid fa-eye fa-2x bg-green"></i>
+                         <i class="fa-solid fa-eye fa-2x "></i>
                          <div>
-                              <span class="display-6 bg-green ">88,00,000</span><br>
+                              <span class="display-6 ">88,00,000</span><br>
                               <p>Total Visitors</p>
                          </div>
                     </div>
@@ -61,9 +64,9 @@ require_once("header.php");
 
                <div class="col-lg-4 ">
                     <div class="col-sm-12">
-                         <i class="fa-solid fa-trophy fa-2x bg-green"></i>
+                         <i class="fa-solid fa-trophy fa-2x"></i>
                          <div>
-                              <span class="display-6 bg-green ">98,00,000</span>
+                              <span class="display-6 ">98,00,000</span>
                               <p>Winners</p>
                          </div>
                     </div>
@@ -71,9 +74,9 @@ require_once("header.php");
 
                <div class="col-lg-4 ">
                     <div class="col-sm-12">
-                         <i class="fa-solid fa-users fa-2x bg-green"></i>
+                         <i class="fa-solid fa-users fa-2x"></i>
                          <div>
-                              <span class="display-6 bg-green ">68,00,000</span>
+                              <span class="display-6 ">68,00,000</span>
                               <p>Total Users</p>
                          </div>
                     </div>
@@ -87,7 +90,7 @@ require_once("header.php");
 <!-- ? suppose to handle responsive image  -->
 <section class="container-fluid" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
      <div class="aboutSection" id="scrollspyHeading1">
-          <div class="container">
+          <div class="container text-dark">
                <div class="row row-cols-1 pt-5 pb-4">
                     <div class="col-lg-6 col-sm-12">
                          <div>
@@ -131,8 +134,8 @@ require_once("header.php");
                          </div>
                     </div>
 
-                    <div class="col-lg-6 pt-5 side-img">
-                         <img src="res/img/signal.png" class="img-fluid" alt="..." width="900">
+                    <div class="col-lg-6 pt-5 side-img d-sm-none d-md-block">
+
                     </div>
                </div>
           </div>
@@ -143,13 +146,13 @@ require_once("header.php");
 <section class="container-fluid" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
      <div class="container py-5 card-package" id="scrollspyPlan">
           <div class="container mb-3">
-               <h2 class="text-center text-light">
+               <h2 class="text-center text-dark">
                     <em>Latest Investment Packages</em>
                </h2>
           </div>
           <div class="row">
                <div class="col-lg-3 mt-5">
-                    <div class="card text-light bg-section text-center">
+                    <div class="card text-dark bg-section text-center">
                          <div class="card-style text-dark rounded-3">
                               <h5 class="card-header"><em>BASIC PLAN</em></h5>
                          </div>
@@ -173,7 +176,7 @@ require_once("header.php");
                </div>
 
                <div class="col-lg-3 ml-5 mt-5">
-                    <div class="card text-light bg-section text-center ">
+                    <div class="card text-dark bg-section text-center ">
                          <div class="card-style text-dark rounded-3">
                               <h5 class="card-header"><em>STANDARD PLAN</em></h5>
                          </div>
@@ -197,7 +200,7 @@ require_once("header.php");
                </div>
 
                <div class="col-lg-3 mt-5">
-                    <div class="card text-light bg-section text-center">
+                    <div class="card text-dark bg-section text-center">
                          <div class="card-style text-dark rounded-3">
                               <h5 class="card-header"><em>PREMIUM PLAN</em></h5>
                          </div>
@@ -221,7 +224,7 @@ require_once("header.php");
                </div>
 
                <div class="col-lg-3 mt-5">
-                    <div class="card text-light bg-section text-center">
+                    <div class="card text-dark bg-section text-center">
                          <div class="card-style text-dark rounded-3">
                               <h5 class="card-header"><em>PROFESSIONAL PLAN</em></h5>
                          </div>
@@ -249,7 +252,7 @@ require_once("header.php");
 
 <!-- how page -->
 <section class="container-fluid">
-     <div class="container py-5 text-center text-light">
+     <div class="container py-5 text-center text-dark">
           <div class="container text-center ">
                <h2>How Airships investment Works</h2>
                <p>Get involved in our tremendous platform and Invest. We will utilize your <br>
@@ -261,7 +264,7 @@ require_once("header.php");
           <div class="row mt-5">
                <div class="col-lg-3">
                     <span>
-                         <img src="res/img/number1.png" class="img-fluid span-num" alt="..." width="133">
+                         <i class="fa-solid fa-1 fa-4x span-num"></i>
                     </span>
                     <h5 class="mt-3"><em>Create an Account</em></h5>
                     <p>Provide Few Required Information About Yourself.</p>
@@ -269,7 +272,7 @@ require_once("header.php");
 
                <div class="col-lg-3">
                     <span>
-                         <img src="res/img/number2.png" class="img-fluid span-num" alt="..." width="133">
+                         <i class="fa-solid fa-2 fa-4x span-num"></i>
                     </span>
                     <h5 class="mt-3"><em>Deposit Investment Capital</em></h5>
                     <p>Deposit Your Investment Capital Using your prefered payment method</p>
@@ -277,7 +280,7 @@ require_once("header.php");
 
                <div class="col-lg-3">
                     <span>
-                         <img src="res/img/number3.png" class="img-fluid span-num" alt="..." width="130">
+                         <i class="fa-solid fa-3 fa-4x span-num"></i>
                     </span>
                     <h5 class="mt-3"><em>Invest In A Plan</em></h5>
                     <p>Choose And Invest In Your Prefered Investment Package</p>
@@ -285,7 +288,7 @@ require_once("header.php");
 
                <div class="col-lg-3">
                     <span>
-                         <img src="res/img/number4.png" class="img-fluid span-num" alt="..." width="130">
+                         <i class="fa-solid fa-4 fa-4x span-num"></i>
                     </span>
                     <h5 class="mt-3"><em>Get Profit</em></h5>
                     <p>Seat Back and watch your investment grow and withdraw profit by the end of each investment package</p>
@@ -297,19 +300,19 @@ require_once("header.php");
 <!-- Recent deposit section -->
 <section class="container-fluid">
      <div class="container text-center recent-updateSection">
-          <div class=" pt-5 text-light">
+          <div class=" pt-5 text-dark">
                <h2><em>Recent Deposit And Withdraw</em></h2>
           </div>
           <div class="container mt-3 mb-3 text-center  ">
                <div class="btn-group recent-btn" role="group" aria-label="Basic example">
                     <button type="button" class="btn left-btn px-3">Latest Deposite</button>
-                    <button type="button" class="btn btn-primary right-btn px-3">Latest Withdrew</button>
+                    <button type="button" class="btn btn-success right-btn px-3">Latest Withdrew</button>
                </div>
           </div>
 
           <div class="container pb-5 pt-2">
                <div class="table-responsive">
-                    <table class="table text-light table-hover mb-5">
+                    <table class="table text-dark table-hover mb-5">
                          <thead>
                               <tr>
                                    <th scope="col">TRX</th>
@@ -373,8 +376,8 @@ require_once("header.php");
 <!-- trust section -->
 <section class="container-fluid card-section-one " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
      <div class="container text-light pt-5 pb-5" id="scrollspytrust">
-          <div class="container ">
-               <h2>Why You Trust Our Service</h2>
+          <div class="container text-dark">
+               <h2 class="text-light">Why You Trust Our Service</h2>
                <div class="row pt-4 card-section">
                     <div class="col-lg-4 pt-3">
                          <div class="card" style="width: 21rem;">
@@ -558,7 +561,7 @@ require_once("header.php");
                               <div class="card-body">
                                    <img src="res/img/investor1.png" class="rounded float-start me-2" alt="...">
                                    <h5 class="card-title ms-2">Zahidul</h5>
-                                   <p class="card-text bg-green">Åland Islands <br><span class="text-muted">11 Feb, 2021</span></p>
+                                   <p class="card-text bg-green">Åland Islands <br><span class="text-dark">11 Feb, 2021</span></p>
                               </div>
                          </div>
                     </div>
@@ -568,7 +571,7 @@ require_once("header.php");
                               <div class="card-body">
                                    <img src="res/img/investor2.png" class="rounded float-start me-2" alt="...">
                                    <h5 class="card-title ms-2">Rasel</h5>
-                                   <p class="card-text bg-green">England <br><span class="text-muted">14 Feb, 2022</span></p>
+                                   <p class="card-text bg-green">England <br><span class="text-dark">14 Feb, 2022</span></p>
                               </div>
                          </div>
                     </div>
@@ -578,7 +581,7 @@ require_once("header.php");
                               <div class="card-body">
                                    <img src="res/img/investor3.png" class="rounded float-start me-2" alt="...">
                                    <h5 class="card-title ms-2">Karima</h5>
-                                   <p class="card-text bg-green">American Samoa <br><span class="text-muted">1 Feb, 2022</span></p>
+                                   <p class="card-text bg-green">American Samoa <br><span class="text-dark">1 Feb, 2022</span></p>
                               </div>
                          </div>
                     </div>
@@ -587,7 +590,7 @@ require_once("header.php");
                               <div class="card-body">
                                    <img src="res/img/investor4.png" class="rounded float-start me-2" alt="...">
                                    <h5 class="card-title ms-2">Rahim</h5>
-                                   <p class="card-text bg-green">Bangladesh <br><span class="text-muted">18 Feb, 2022</span></p>
+                                   <p class="card-text bg-green">Bangladesh <br><span class="text-dark">18 Feb, 2022</span></p>
                               </div>
                          </div>
                     </div>
@@ -671,7 +674,7 @@ require_once("header.php");
                </div>
           </div>
 
-          <div class="container text-center mt-5 pt-5" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+          <div class="container text-center mt-5 pt-5 text-dark" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
                <h6 id="scrollspypay">Payment Gateway</h6>
                <h2 class="mb-4">
                     <em>Payment Methods We Accept</em>
@@ -691,19 +694,19 @@ require_once("header.php");
           <div class="container text-center mt-5">
                <div class="row followers">
                     <div class="col-lg-3 followers-singel">
-                         <h1 class="bg-green">24k</h1>
+                         <h1>24k</h1>
                          <p>Partnered Organization</p>
                     </div>
                     <div class="col-lg-3 followers-singel">
-                         <h1 class="bg-green">22k</h1>
+                         <h1>22k</h1>
                          <p>Individual Users</p>
                     </div>
                     <div class="col-lg-3 followers-singel">
-                         <h1 class="bg-green">56k</h1>
+                         <h1 class="">56k</h1>
                          <p>Investors</p>
                     </div>
                     <div class="col-lg-3 followers-singel">
-                         <h1 class="bg-green">24k</h1>
+                         <h1>24k</h1>
                          <p>Traders</p>
                     </div>
                </div>
@@ -716,7 +719,7 @@ require_once("header.php");
 <div class="container">
      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog modal-dialog-scrollable">
-               <div class="modal-content login-modal text-light">
+               <div class="modal-content login-modal text-dark">
                     <div class="modal-header">
                          <h5 class="modal-title" id="exampleModalLabel">Login your account</h5>
                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -751,7 +754,7 @@ require_once("header.php");
 <div class="container">
      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog modal-dialog-scrollable">
-               <div class="modal-content login-modal text-light">
+               <div class="modal-content login-modal text-dark">
                     <div class="modal-header">
                          <h5 class="modal-title" id="exampleModalLabel">Signup your account</h5>
                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

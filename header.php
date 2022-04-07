@@ -11,8 +11,8 @@ require('login-inc.php');
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <!-- my stylesheet -->
-     <link rel="stylesheet" href="res/mycss/style.css?v=1">
-     <link rel="stylesheet" href="res/mycss/global-style.css?v=1">
+     <link rel="stylesheet" href="res/mycss/style.css?v=5">
+     <link rel="stylesheet" href="res/mycss/global-style.css?v=5">
      <!-- fontawasome -->
      <link rel="stylesheet" href="res/fontawesome-free-6.0.0-web/css/all.css">
      <!-- Bootstrap CSS -->
@@ -59,7 +59,7 @@ require('login-inc.php');
                          </ul>
                          <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                               <li class="nav-item">
-                                   <button class="rounded-pill" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
+                                   <button class="btn btn-success" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
                               </li>
                               <li class="nav-item text-uppercase">
                                    <a class="nav-link sign-up" data-bs-toggle="modal" data-bs-target="#exampleModal2">sign up</a>

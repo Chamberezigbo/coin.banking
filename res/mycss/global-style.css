@@ -1,27 +1,27 @@
 .bg-green {
-	color: #ace600 !important;
+	color: #388E3C !important;
 }
 .btn-close{
 	background-color: red !important;
 }
 .btn-green{
-	background-color: #ace600 !important;
+	background-color: #388E3C !important;
 	color: white;
 }
 .bg-section{
-	background-color: #131340 !important;
+	background-color: #388E3C !important;
 }
 .bg-card{
-	background-color: #0E232A;
-	border: solid 3px #A7DF00;
+	background-color: #F2F9F1;
+	border: solid 3px #388E3C;
 	border-radius: 15px;
-	box-shadow: rgba(172, 230, 0, 0.25) 0px 54px 55px, rgba(172, 230, 0, 0.12) 0px -12px 30px, 
-		rgba(172, 230, 0, 0.12) 0px 4px 6px, rgba(172, 230, 0, 0.17) 0px 12px 13px,
-		rgba(172, 230, 0, 0.09) 0px -3px 5px;	
+	box-shadow: rgba(221, 238, 223, 0.25) 0px 54px 55px, rgba(221, 238, 223, 0.12) 0px -12px 30px, 
+		rgba(221, 238, 223, 0.12) 0px 4px 6px, rgba(221, 238, 223, 0.17) 0px 12px 13px,
+		rgba(221, 238, 223, 0.09) 0px -3px 5px;	
 	height: auto;		
 }
 .card-style {
-	background-color: #A7DF00;
+	background-color: #388E3C;
 	width: 90%;
 	margin-left:12px;
 }
@@ -34,27 +34,30 @@
 		rgba(172, 230, 0, 0.65) 0px 4px 6px -1px,
 		rgba(172, 230, 0, 0.08) 0px 1px 0px inset;
 }
+.box1 {
+     background-color: #388E3C;
+     box-shadow:  rgba(197, 216, 164, 0.4) 0px 0px 0px 2px,
+		rgba(197, 216, 164, 0.65) 0px 4px 6px -1px,
+		rgba(197, 216, 164, 0.08) 0px 1px 0px inset;;
+}
 
 
 .iconspan{
 	padding: 11px;
 	height: 90px;
-	border: solid 10px #20204e;
-	box-shadow: rgba(172, 230, 0, 0.25) 0px 54px 55px, rgba(172, 230, 0, 0.12) 0px -12px 30px, 
-		rgba(172, 230, 0, 0.12) 0px 4px 6px, rgba(172, 230, 0, 0.17) 0px 12px 13px,
-		rgba(172, 230, 0, 0.09) 0px -3px 5px;			
+	border: solid 10px #DDEEDF;
+	box-shadow: rgba(242, 249, 241, 0.25) 0px 54px 55px, rgba(242, 249, 241, 0.12) 0px -12px 30px, 
+		rgba(242, 249, 241, 0.12) 0px 4px 6px, rgba(242, 249, 241, 0.17) 0px 12px 13px,
+		rgba(242, 249, 241, 0.09) 0px -3px 5px;			
 
 }
 .mybtn{
-	background-color: #ace600 !important ;
-	color: #131340 !important;
+	background-color: #388E3C !important ;
+	color: #F2F9F1 !important;
 }
 
 .span-num {
-	border: 8px solid #20204E;
-	border-radius: 50%;
-	box-shadow: rgba(172, 230, 0, 0.4) 0px 0px 0px 2px,
-		rgba(172, 230, 0, 0.65) 0px 4px 6px -1px,
-		rgba(172, 230, 0, 0.08) 0px 1px 0px inset;
+	color:#388E3C;
+
 }
 

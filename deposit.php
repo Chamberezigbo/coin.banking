@@ -113,7 +113,7 @@ require_once("dash_header.php");
      <div class="container">
           <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered ">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel">Payment By BitCoin (Manual Payment)</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -141,17 +141,17 @@ require_once("dash_header.php");
 
           <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel2">Payment Preview</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                          </div>
-                         <div class="modal-body">
+                         <div class="modal-body text-dark">
                               <ul class="list-group text-center ">
-                                   <li class="list-group-item login-modal text-light">Payable:50,00 -50,000,00 USD</li>
-                                   <li class="list-group-item login-modal text-light">Charge: 0.00 USD</li>
-                                   <li class="list-group-item login-modal text-light">Payable:50,00 -50,000,00 USD</li>
-                                   <li class="list-group-item login-modal text-light">Conversion Rate: 1 USD = 0.00 BTC</li>
+                                   <li class="list-group-item login-modal">Payable:50,00 -50,000,00 USD</li>
+                                   <li class="list-group-item login-modal">Charge: 0.00 USD</li>
+                                   <li class="list-group-item login-modal">Payable:50,00 -50,000,00 USD</li>
+                                   <li class="list-group-item login-modal">Conversion Rate: 1 USD = 0.00 BTC</li>
                               </ul>
                          </div>
                          <div class="modal-footer mt-5">
@@ -164,7 +164,7 @@ require_once("dash_header.php");
 
           <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel2">Deposit Confirm</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -186,7 +186,7 @@ require_once("dash_header.php");
      <div class="container">
           <div class="modal fade" id="exampleModalToggleForLitCoin" aria-hidden="true" aria-labelledby="exampleModalToggleForLitCoin" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered ">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel">Payment By LitCoin (Manual Payment)</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -214,7 +214,7 @@ require_once("dash_header.php");
 
           <div class="modal fade" id="exampleModalToggleLitCoin2" aria-hidden="true" aria-labelledby="exampleModalToggleLitCoin2" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel2">Payment Preview</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -236,7 +236,7 @@ require_once("dash_header.php");
           </div>
           <div class="modal fade" id="exampleModalToggleLitCoin3" aria-hidden="true" aria-labelledby="exampleModalToggleLitCoin3" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel2">Deposit Confirm</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -259,7 +259,7 @@ require_once("dash_header.php");
      <div class="container">
           <div class="modal fade" id="exampleModalToggleForUsdt" aria-hidden="true" aria-labelledby="exampleModalToggleForUsdt" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered ">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel">Payment By LitCoin (Manual Payment)</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -287,7 +287,7 @@ require_once("dash_header.php");
 
           <div class="modal fade" id="exampleModalToggleUsdt2" aria-hidden="true" aria-labelledby="exampleModalToggleUsdt2" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel2">Payment Preview</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -309,7 +309,7 @@ require_once("dash_header.php");
           </div>
           <div class="modal fade" id="exampleModalToggleUsdt3" aria-hidden="true" aria-labelledby="exampleModalToggleUsdt3" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel2">Deposit Confirm</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

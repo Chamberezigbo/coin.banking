@@ -4,15 +4,15 @@
                    <div class="col-lg-6 text-center">
                         <img src="res/img/logo1.png" class="rounded float-start" alt="..." width="80px">
                    </div>
-                   <div class="col-lg-6 text-light text-end">
+                   <div class="col-lg-6 text-dark text-end">
                         <h5><span>Copyright</span> <span>Terms &amp; Condition</span> <span> Privacy&amp; Policy</span></h5>
                    </div>
               </div>
               <div class="row">
-                   <div class="col-lg-6 text-light">
+                   <div class="col-lg-6 text-dark">
                         <p>Copyright © 2021 Platinum Returns Investment All Right Reserved</p>
                    </div>
-                   <div class="col-lg-6 text-light text-end">
+                   <div class="col-lg-6 text-dark text-end">
                         <h5 class="icon">
                              <i class="fa-brands fa-instagram rounded"></i>
                              <i class="fa-brands fa-twitter-square"></i>

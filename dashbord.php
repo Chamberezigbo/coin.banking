@@ -98,104 +98,110 @@ require_once("dash_header.php");
                          </div>
                     </div>
                </div>
+          </div>
+     </section>
+     <section class="midsection pb-5">
+          <div class="container">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-lg-4 mt-5">
+                              <div class="card text-dark bg-section text-center">
+                                   <div class="card-style text-dark rounded-3">
+                                        <h5 class="card-header"><em>BASIC PLAN</em></h5>
+                                   </div>
+                                   <div class="card-body bg-card">
+                                        <h5 class="card-title">$50 - $100</h5>
+                                        <p class="card-text mt-5">
+                                             <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
+                                        </p>
+                                        <p class="card-text">
+                                             <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
+                                        </p>
+                                        <p class="card-text">
+                                             <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
 
-               <div class="row">
-                    <div class="col-lg-4 mt-5">
-                         <div class="card text-light bg-section text-center">
-                              <div class="card-style text-dark rounded-3">
-                                   <h5 class="card-header"><em>BASIC PLAN</em></h5>
+                                        </p>
+                                        <div class="mt-auto">
+                                             <a href="#" class="btn mybtn mt-auto">Invest Now</a>
+                                        </div>
+                                   </div>
                               </div>
-                              <div class="card-body bg-card">
-                                   <h5 class="card-title">$50 - $100</h5>
-                                   <p class="card-text mt-5">
-                                        <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
-                                   </p>
-                                   <p class="card-text">
-                                        <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
-                                   </p>
-                                   <p class="card-text">
-                                        <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
+                         </div>
 
-                                   </p>
-                                   <div class="mt-auto">
-                                        <a href="#" class="btn mybtn mt-auto">Invest Now</a>
+                         <div class="col-lg-4 ml-5 mt-5">
+                              <div class="card text-dark bg-section text-center ">
+                                   <div class="card-style text-dark rounded-3">
+                                        <h5 class="card-header"><em>STANDARD PLAN</em></h5>
+                                   </div>
+                                   <div class="card-body bg-card">
+                                        <h5 class="card-title">$200 - $500</h5>
+                                        <p class="card-text mt-5">
+                                             <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
+                                        </p>
+                                        <p class="card-text">
+                                             <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
+                                        </p>
+                                        <p class="card-text">
+                                             <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
+
+                                        </p>
+                                        <div class="mt-auto">
+                                             <a href="#" class="btn mybtn mt-auto">Invest Now</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-lg-4 mt-5">
+                              <div class="card text-dark bg-section text-center">
+                                   <div class="card-style text-dark rounded-3">
+                                        <h5 class="card-header"><em>PREMIUM PLAN</em></h5>
+                                   </div>
+                                   <div class="card-body bg-card">
+                                        <h5 class="card-title">$600 - $1,000</h5>
+                                        <p class="card-text mt-5">
+                                             <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
+                                        </p>
+                                        <p class="card-text">
+                                             <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
+                                        </p>
+                                        <p class="card-text">
+                                             <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
+
+                                        </p>
+                                        <div class="mt-auto">
+                                             <a href="#" class="btn mybtn mt-auto">Invest Now</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-lg-4 mt-5 mx-auto">
+                              <div class="card text-dark bg-section text-center">
+                                   <div class="card-style text-dark rounded-3">
+                                        <h5 class="card-header"><em>PROFESSIONAL PLAN</em></h5>
+                                   </div>
+                                   <div class="card-body bg-card">
+                                        <h5 class="card-title">$1,500 - $5,000</h5>
+                                        <p class="card-text mt-5">
+                                             <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
+                                        </p>
+                                        <p class="card-text">
+                                             <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
+                                        </p>
+                                        <p class="card-text">
+                                             <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
+
+                                        </p>
+                                        <div class="mt-auto">
+                                             <a href="#" class="btn mybtn mt-auto">Invest Now</a>
+                                        </div>
                                    </div>
                               </div>
                          </div>
                     </div>
 
-                    <div class="col-lg-4 ml-5 mt-5">
-                         <div class="card text-light bg-section text-center ">
-                              <div class="card-style text-dark rounded-3">
-                                   <h5 class="card-header"><em>STANDARD PLAN</em></h5>
-                              </div>
-                              <div class="card-body bg-card">
-                                   <h5 class="card-title">$200 - $500</h5>
-                                   <p class="card-text mt-5">
-                                        <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
-                                   </p>
-                                   <p class="card-text">
-                                        <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
-                                   </p>
-                                   <p class="card-text">
-                                        <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
-
-                                   </p>
-                                   <div class="mt-auto">
-                                        <a href="#" class="btn mybtn mt-auto">Invest Now</a>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-5">
-                         <div class="card text-light bg-section text-center">
-                              <div class="card-style text-dark rounded-3">
-                                   <h5 class="card-header"><em>PREMIUM PLAN</em></h5>
-                              </div>
-                              <div class="card-body bg-card">
-                                   <h5 class="card-title">$600 - $1,000</h5>
-                                   <p class="card-text mt-5">
-                                        <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
-                                   </p>
-                                   <p class="card-text">
-                                        <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
-                                   </p>
-                                   <p class="card-text">
-                                        <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
-
-                                   </p>
-                                   <div class="mt-auto">
-                                        <a href="#" class="btn mybtn mt-auto">Invest Now</a>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col-lg-4 mt-5 mx-auto">
-                         <div class="card text-light bg-section text-center">
-                              <div class="card-style text-dark rounded-3">
-                                   <h5 class="card-header"><em>PROFESSIONAL PLAN</em></h5>
-                              </div>
-                              <div class="card-body bg-card">
-                                   <h5 class="card-title">$1,500 - $5,000</h5>
-                                   <p class="card-text mt-5">
-                                        <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
-                                   </p>
-                                   <p class="card-text">
-                                        <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
-                                   </p>
-                                   <p class="card-text">
-                                        <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
-
-                                   </p>
-                                   <div class="mt-auto">
-                                        <a href="#" class="btn mybtn mt-auto">Invest Now</a>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
                </div>
           </div>
      </section>

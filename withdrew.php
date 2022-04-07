@@ -114,7 +114,7 @@ require_once("dash_header.php");
      <div class="container">
           <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered ">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel">Withdraw Via BitCoin</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -142,7 +142,7 @@ require_once("dash_header.php");
 
           <div class="modal fade" id="exampleModalToggleBank" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered ">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel">Withdraw Via Bank Wire Transfer</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -170,7 +170,7 @@ require_once("dash_header.php");
 
           <div class="modal fade" id="exampleModalToggleEth" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                <div class="modal-dialog modal-dialog-centered ">
-                    <div class="modal-content login-modal text-light">
+                    <div class="modal-content login-modal text-dark">
                          <div class="modal-header">
                               <h5 class="modal-title" id="exampleModalToggleLabel">Withdraw Via Ethereum</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

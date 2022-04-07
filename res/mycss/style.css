@@ -5,92 +5,80 @@ body {
 }
 
 nav {
-	background-color: #20204e !important;
+	background-color: #388E3C !important;
 	color: #ffffff;
 }
-
-nav button {
-	background-color: #ABE500;
-	padding: 8px;
-	border-radius: 10px;
-}
-
 .landing-section {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
 		url("../img/student.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 90vh;
+	height: 100vh;
 	color: white;
 }
 .landing-section button:hover {
-	background-color: #ABE500;
+	background-color: #388E3C;
 }
 .user-details {
-	background-color: #20204e;
+	background-color: #F2F9F1;
 	height: auto;
-	color: #ffffff;
+	color: #F4FCD9;
 }
 .text-margin {
 	padding-top: -5px;
 }
 section{
-	background-color:#131340;
+	background-color:#F2F9F1;
 	border-bottom: 1px solid #414168;
 }
 .aboutSection {
 	color:white;
 }
 .side-img {
-	position: relative;
-	animation-name: moving-img;
-	animation-timing-function: ease;
-	animation-duration: 2s;
-	transform-origin: bottom;
-    animation-iteration-count: infinite;
-}
-
-@keyframes moving-img {
-	0%   { transform: translateY(0); }
-    50%  { transform: translateY(-100px); }
-    100% { transform: translateY(0); }
-
+     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+		url("../img/side-b.jpg");
+     background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 110vh;
+	color: white;
+     margin-top: 10px;
 }
 
 section .recent-updateSection .left-btn{
-	background-color: #A2D800;
+	background-color: #388E3C;
 	color: black;
 	border-radius: 20px;
 }
 
 section .recent-updateSection .right-btn {
-	background-color: #20204e;
+	background-color: #DDEEDF;
 	border-radius: 20px;
-	color: #A2D800;
+	color: #388E3C;
 }
 
 section .recent-updateSection .right-btn:hover {
-	background-color: #A2D800;
+	background-color: #388E3C;
 	border-radius: 5px;
 	color: white;
 }
 section .recent-updateSection table thead {
-	background-color:#A2D800;
+	background-color:#388E3C !important;
 	color: black;
 }
 section .recent-updateSection table tbody tr:hover {
-	background-color: #20204E;
+	background-color: #388E3C;
 	color: white;
 }
 
 .card-section-one {
-	background-color: #20204E;
+	background-color: #388E3C;
 }
 
 .card-section-one .bg-card-two {
-	background-color: #20204E;
-	border: solid 3px #A7DF00;
+	background-color: #DDEEDF;
+	border: solid 3px #388E3C;
 }
 .card-section-one .bg-card-two:hover {
 	box-shadow: rgba(172, 230, 0, 0.25) 0px 54px 55px, rgba(172, 230, 0, 0.12) 0px -12px 30px, 
@@ -98,48 +86,45 @@ section .recent-updateSection table tbody tr:hover {
 		rgba(172, 230, 0, 0.09) 0px -3px 5px;
 }
 .collapse-sec{
-	border: 2px solid #ABE500;
-	color: white;
-	background-color: #15163F;
+	border: 2px solid #388E3C;
+	color: black;
+	background-color: #DDEEDF;
 }
 
 .collapse-sec:active {
-	background-color: #ACE600;
+	background-color: #388E3C;
 	color: black;
 }
 .collapse-details{
 	color: white;
-	border: 2px solid #ABE500 ;
+	border: 2px solid #388E3C ;
 }
 
 .collapse-details div {
-	background-color: #15163F;
+	background-color: #388E3C;
 }
 .investors-section .card .card-body {
-	background-color: #20204E;
+	background-color: #388E3C;
 	color: white;
-	border: 2px dotted #ABE500 ;
-	box-shadow: rgba(172, 230, 0, 0.25) 0px 54px 55px, rgba(172, 230, 0, 0.12) 0px -12px 30px, 
-		rgba(172, 230, 0, 0.12) 0px 4px 6px, rgba(172, 230, 0, 0.17) 0px 12px 13px,
-		rgba(172, 230, 0, 0.09) 0px -3px 5px;
+	border: 2px dotted #DDEEDF ;
+	box-shadow: rgba(221, 238, 223, 0.25) 0px 54px 55px, rgba(221, 238, 223, 0.12) 0px -12px 30px, 
+		rgba(221, 238, 223, 0.12) 0px 4px 6px, rgba(221, 238, 223, 0.17) 0px 12px 13px,
+		rgba(221, 238, 223, 0.09) 0px -3px 5px;
 }
 .testimony-card {
-	background-color: #20204E;
-	border: 2px solid #ABE500;
-	color: white;
+	background-color: #DDEEDF;
+	border: 2px solid #388E3C;
+	color: black;
 }
 .testimony-card:hover {
-	box-shadow: rgba(172, 230, 0, 0.4) 0px 0px 0px 2px,
-		rgba(172, 230, 0, 0.65) 0px 4px 6px -1px,
-		rgba(172, 230, 0, 0.08) 0px 1px 0px inset;
+	box-shadow: rgba(221, 238, 2230, 0.4) 0px 0px 0px 2px,
+		rgba(221, 238, 223, 0.65) 0px 4px 6px -1px,
+		rgba(221, 238, 223, 0.08) 0px 1px 0px inset;
 }
 
 .followers{
 	padding: 40px;
-	background-color: #20204E;
-	box-shadow: rgba(172, 230, 0, 0.25) 0px 54px 55px, rgba(172, 230, 0, 0.12) 0px -12px 30px, 
-		rgba(172, 230, 0, 0.12) 0px 4px 6px, rgba(172, 230, 0, 0.17) 0px 12px 13px,
-		rgba(172, 230, 0, 0.09) 0px -3px 5px;
+	background-color: #388E3C;
 }
 
 .followers-singel {
@@ -147,28 +132,28 @@ section .recent-updateSection table tbody tr:hover {
 }
 
 footer {
-	background-color: #20204E;
+	background-color: #F2F9F1;
 }
 footer .row h5 {
 	cursor: pointer;
 }
 footer .row h5 span:hover {
-	color: #ABE500;
+	color: #388E3C;
 }
 footer .first-footer {
 	border-bottom: 2px solid white;
 }
 
 footer .row .icon span:hover {
-	background-color: #ABE500;
+	background-color: #388E3C;
 }
 .sign-up {
      cursor: pointer;
 }
 
 .login-modal {
-	border: 2px solid #ABE500 !important;
-	background-color: #20204E !important;
+	border: 2px solid #388E3C !important;
+	background-color: #F2F9F1 !important;
 }
 .login-modal .modal-footer {
 	text-align: center !important;
@@ -203,8 +188,8 @@ footer .row .icon span:hover {
 /* style for my dashboard section */
 
 .dashboard-home {
-	background-image: linear-gradient(rgba(7, 7, 87, 0.822), rgba(32, 32, 78, 0.856)),
-		url("../img/dashbordbg.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("../img/newdash.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -212,21 +197,25 @@ footer .row .icon span:hover {
 	color: white;
 }
 .bg-card-green {
-     background-color: #ABE500 !important;
+     background-color: #DDEEDF !important;
      color:black;
 }
 .bg-card-blue {
-     background-color: #20204E !important;
+     background-color: #388E3C !important;
      color:white;
 }
 .deposit-card{
-     background-color: #131340 !important;
-     color: white;
-     border: 3px solid #ABE500 !important;
+     background-color: #DDEEDF !important;
+     color: black;
+     border: 3px solid #388E3C !important;
 }
 .table-responsive table thead{
-     background-color: #ABE500 !important;
-     color: #131340;
+     background-color: #388E3C !important;
+     color: white;
+}
+
+.midsection {
+     background-color: #388E3C;
 }
 
 

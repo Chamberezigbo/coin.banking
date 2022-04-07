@@ -66,7 +66,7 @@ if (!$_SESSION['auth']) {
                                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                                         <li class="nav-item">
                                              <form action="sign.out.php">
-                                                  <button class="submit" type="submit">Sign Out</button>
+                                                  <button class="btn btn-success submit" type="submit">Sign Out</button>
                                              </form>
                                         </li>
                                         <li class="nav-item dropdown text-uppercase">
