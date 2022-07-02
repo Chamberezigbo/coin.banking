@@ -11,8 +11,8 @@ require('login-inc.php');
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <!-- my stylesheet -->
-     <link rel="stylesheet" href="res/mycss/style.css?v=5">
-     <link rel="stylesheet" href="res/mycss/global-style.css?v=5">
+     <link rel="stylesheet" href="res/mycss/style.css?v=<?php echo time(); ?>">
+     <link rel="stylesheet" href="res/mycss/global-style.css?v=<?php echo time(); ?>">
      <!-- fontawasome -->
      <link rel="stylesheet" href="res/fontawesome-free-6.0.0-web/css/all.css">
      <!-- Bootstrap CSS -->
