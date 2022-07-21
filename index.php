@@ -44,7 +44,7 @@ require_once("header.php");
 
 <!-- whatsapp contact -->
 <a class="whats-app" href="http://wa.me/+13474865322" target="_blank">
-     <i class="fa-brands fa-whatsapp my-float"></i>
+     <i class="fa-brands fa-telegram my-float"></i>
 </a>
 
 <!-- users section -->
