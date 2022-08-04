@@ -231,7 +231,7 @@ require_once("header.php");
                          <div class="card-body bg-card">
                               <h5 class="card-title">$1,500 - $5,000</h5>
                               <p class="card-text mt-5">
-                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
+                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 100%
                               </p>
                               <p class="card-text">
                                    <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day

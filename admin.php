@@ -46,6 +46,7 @@ require_once('db.php');
                          <th scope="col">Balance</th>
                          <th scope="col">ID</th>
                          <th scope="col">Operation</th>
+                         <th scope="col">Operation</th>
                     </tr>
                </thead>
                <tbody>
@@ -72,8 +73,11 @@ require_once('db.php');
                                    <td><?= $phone ?></td>
                                    <td><?= $balance ?></td>
                                    <td><?= $id ?></td>
-                                   <td><button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                   <td><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                              <a href="admin.edit.php?updateId='<?= $id; ?>'" class="text-light">Edit</a>
+                                        </button></td>
+                                        <td><button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                             <a href="admin.delete-inc.php?updateId='<?= $id; ?>'" class="text-light">Delete</a>
                                         </button></td>
                               </tr>
                     <?php }
