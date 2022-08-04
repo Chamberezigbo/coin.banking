@@ -51,6 +51,7 @@
     <script src="res/js/form.validation.js"></script>
     <script src="res/js/activation.validation.js"></script>
     <script src="res/js//loginForm.validation.js"></script>
+        <script src="res/js/myscrept.js"></script>
     <script>
          setInterval(function() {
               let alertDev = document.getElementById('alertActivation').classList.add("d-none")

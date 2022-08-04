@@ -56,7 +56,7 @@ require_once("header.php");
                     <div class="col-sm-12">
                          <i class="fa-solid fa-eye fa-2x "></i>
                          <div>
-                              <span class="display-6 ">88,00,000</span><br>
+                              <span class="display-6 " id="visitors">88,00,500</span><br>
                               <p>Total Visitors</p>
                          </div>
                     </div>
@@ -66,7 +66,7 @@ require_once("header.php");
                     <div class="col-sm-12">
                          <i class="fa-solid fa-trophy fa-2x"></i>
                          <div>
-                              <span class="display-6 ">98,00,000</span>
+                              <span class="display-6 " id="winners">98,00,000</span>
                               <p>Winners</p>
                          </div>
                     </div>
@@ -76,7 +76,7 @@ require_once("header.php");
                     <div class="col-sm-12">
                          <i class="fa-solid fa-users fa-2x"></i>
                          <div>
-                              <span class="display-6 ">68,00,000</span>
+                              <span class="display-6 " id="users">68,05,000</span>
                               <p>Total Users</p>
                          </div>
                     </div>
@@ -157,12 +157,12 @@ require_once("header.php");
                               <h5 class="card-header"><em>BASIC PLAN</em></h5>
                          </div>
                          <div class="card-body bg-card">
-                              <h5 class="card-title">$50 - $100</h5>
+                              <h5 class="card-title">$1000 - $9999</h5>
                               <p class="card-text mt-5">
-                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
+                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 100%
                               </p>
                               <p class="card-text">
-                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
+                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> 10 Days
                               </p>
                               <p class="card-text">
                                    <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
@@ -181,12 +181,12 @@ require_once("header.php");
                               <h5 class="card-header"><em>STANDARD PLAN</em></h5>
                          </div>
                          <div class="card-body bg-card">
-                              <h5 class="card-title">$200 - $500</h5>
+                              <h5 class="card-title">$10,000 - $19,000</h5>
                               <p class="card-text mt-5">
-                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
+                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 100%
                               </p>
                               <p class="card-text">
-                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
+                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> 3-4 Months
                               </p>
                               <p class="card-text">
                                    <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
@@ -205,12 +205,12 @@ require_once("header.php");
                               <h5 class="card-header"><em>PREMIUM PLAN</em></h5>
                          </div>
                          <div class="card-body bg-card">
-                              <h5 class="card-title">$600 - $1,000</h5>
+                              <h5 class="card-title">$20,000 - $100,000</h5>
                               <p class="card-text mt-5">
-                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 40.00 %
+                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Return 100%
                               </p>
                               <p class="card-text">
-                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> Every Day
+                                   <span><i class="fa-solid fa-square-check bg-green"></i></span> 3-4 Months
                               </p>
                               <p class="card-text">
                                    <i class="fa-solid fa-square-check bg-green"></i> For 3 Times
