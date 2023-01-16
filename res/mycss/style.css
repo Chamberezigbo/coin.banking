@@ -1,0 +1,295 @@
+body {
+	padding: 0px;
+	margin: 0px;
+     overflow-x: hidden;
+}
+
+nav {
+	background-color: #388E3C !important;
+	color: #ffffff;
+}
+.landing-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("../img/cruise-1578528_1920.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: white;
+}
+.landing-section button:hover {
+	background-color: #388E3C;
+}
+.user-details {
+	background-color: #F2F9F1;
+	height: auto;
+	color: #F4FCD9;
+}
+.text-margin {
+	padding-top: -5px;
+}
+section{
+	background-color:#F2F9F1;
+	border-bottom: 1px solid #414168;
+}
+.aboutSection {
+	color:white;
+}
+.side-img {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+		url("../img/side-b.jpg");
+     background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 110vh;
+	color: white;
+     margin-top: 10px;
+}
+
+section .recent-updateSection .left-btn{
+	background-color: #388E3C;
+	color: black;
+	border-radius: 20px;
+}
+
+section .recent-updateSection .right-btn {
+	background-color: #DDEEDF;
+	border-radius: 20px;
+	color: #388E3C;
+}
+
+section .recent-updateSection .right-btn:hover {
+	background-color: #388E3C;
+	border-radius: 5px;
+	color: white;
+}
+section .recent-updateSection table thead {
+	background-color:#388E3C !important;
+	color: black;
+}
+section .recent-updateSection table tbody tr:hover {
+	background-color: #388E3C;
+	color: white;
+}
+
+.card-section-one {
+	background-color: #388E3C;
+}
+
+.card-section-one .bg-card-two {
+	background-color: #DDEEDF;
+	border: solid 3px #388E3C;
+}
+.card-section-one .bg-card-two:hover {
+	box-shadow: rgba(172, 230, 0, 0.25) 0px 54px 55px, rgba(172, 230, 0, 0.12) 0px -12px 30px, 
+		rgba(172, 230, 0, 0.12) 0px 4px 6px, rgba(172, 230, 0, 0.17) 0px 12px 13px,
+		rgba(172, 230, 0, 0.09) 0px -3px 5px;
+}
+.collapse-sec{
+	border: 2px solid #388E3C;
+	color: black;
+	background-color: #DDEEDF;
+}
+
+.collapse-sec:active {
+	background-color: #388E3C;
+	color: black;
+}
+.collapse-details{
+	color: white;
+	border: 2px solid #388E3C ;
+}
+
+.collapse-details div {
+	background-color: #388E3C;
+}
+.investors-section .card .card-body {
+	background-color: #388E3C;
+	color: white;
+	border: 2px dotted #DDEEDF ;
+	box-shadow: rgba(221, 238, 223, 0.25) 0px 54px 55px, rgba(221, 238, 223, 0.12) 0px -12px 30px, 
+		rgba(221, 238, 223, 0.12) 0px 4px 6px, rgba(221, 238, 223, 0.17) 0px 12px 13px,
+		rgba(221, 238, 223, 0.09) 0px -3px 5px;
+}
+.testimony-card {
+	background-color: #DDEEDF;
+	border: 2px solid #388E3C;
+	color: black;
+}
+.testimony-card:hover {
+	box-shadow: rgba(221, 238, 2230, 0.4) 0px 0px 0px 2px,
+		rgba(221, 238, 223, 0.65) 0px 4px 6px -1px,
+		rgba(221, 238, 223, 0.08) 0px 1px 0px inset;
+}
+
+.followers{
+	padding: 40px;
+	background-color: #388E3C;
+}
+
+.followers-singel {
+	border-right: 2px solid #ABE500;
+}
+
+footer {
+	background-color: #F2F9F1;
+}
+footer .row h5 {
+	cursor: pointer;
+}
+footer .row h5 span:hover {
+	color: #388E3C;
+}
+footer .first-footer {
+	border-bottom: 2px solid white;
+}
+
+footer .row .icon span:hover {
+	background-color: #388E3C;
+}
+.sign-up {
+     cursor: pointer;
+}
+
+.login-modal {
+	border: 2px solid #388E3C !important;
+	background-color: #F2F9F1 !important;
+}
+.login-modal .modal-footer {
+	text-align: center !important;
+}
+.error{
+     color: red;
+     font-weight: 400;
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 130px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 3px 4px 3px #999;
+    right: 35px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+
+/* style for my dashboard section */
+
+.dashboard-home {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("../img/newdash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	color: white;
+}
+.bg-card-green {
+     background-color: #DDEEDF !important;
+     color:black;
+}
+.bg-card-blue {
+     background-color: #388E3C !important;
+     color:white;
+}
+.deposit-card{
+     background-color: #DDEEDF !important;
+     color: black;
+     border: 3px solid #388E3C !important;
+}
+.table-responsive table thead{
+     background-color: #388E3C !important;
+     color: white;
+}
+
+.midsection {
+     background-color: #388E3C;
+}
+
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 690px) {
+     body{
+          height: auto;
+          overflow-x: hidden !important;
+     }
+	#small-screen {
+		padding-bottom: 70px;
+	}
+	.container button {
+		margin-top: -100px;
+	}
+	.landing-section {
+		height: auto;
+	}
+	.landing-section h1 {
+		font-size: xx-large;
+	}
+	.user-details {
+		height: auto;
+	}
+	.user-details .row {
+		border: 1px solid #ace600 !important;
+		border-radius: 0px !important;
+		display: block;
+	}
+	.user-details .row .eye {
+		padding-right: 50px;
+	}
+	section .recent-updateSection .btn-group {
+		margin-top: 100px !important;
+	}
+	section .recent-updateSection .btn-group .right-btn {
+		padding: 1px 50px 1px 50px !important;	}
+	section .recent-updateSection .btn-group  .left-btn{
+		padding: 1px 50px 1px 50px !important;
+	}
+     .recent-btn .right-btn{
+          display: none;
+     }
+     .recent-btn .left-btn {
+          border-radius: 10px;
+     }
+	.card-section .card{
+          width: 100% !important;
+	}
+     .Faq-card button{ 
+          max-width: 100% !important;
+     }
+	.collapse-sec{
+		width: 22rem !important;
+	}
+	.collapse-sec span{
+		display: none;
+	}
+	.investors-section .card{
+		margin-top: 20px;
+	}
+	.d-none-sm{
+		display: none;
+	}
+	.followers-singel {
+		padding-top: 20px;
+	}
+	footer .row .icon {
+		text-align: center;
+	}
+	footer .first-footer img {
+		float: inherit !important;
+	}
+
+}

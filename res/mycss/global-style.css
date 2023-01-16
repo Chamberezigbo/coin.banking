@@ -1,0 +1,63 @@
+.bg-green {
+	color: #388E3C !important;
+}
+.btn-close{
+	background-color: red !important;
+}
+.btn-green{
+	background-color: #388E3C !important;
+	color: white;
+}
+.bg-section{
+	background-color: #388E3C !important;
+}
+.bg-card{
+	background-color: #F2F9F1;
+	border: solid 3px #388E3C;
+	border-radius: 15px;
+	box-shadow: rgba(221, 238, 223, 0.25) 0px 54px 55px, rgba(221, 238, 223, 0.12) 0px -12px 30px, 
+		rgba(221, 238, 223, 0.12) 0px 4px 6px, rgba(221, 238, 223, 0.17) 0px 12px 13px,
+		rgba(221, 238, 223, 0.09) 0px -3px 5px;	
+	height: auto;		
+}
+.card-style {
+	background-color: #388E3C;
+	width: 90%;
+	margin-left:12px;
+}
+.p-b {
+	word-break: break-all;
+}
+
+.box {
+	box-shadow: rgba(172, 230, 0, 0.4) 0px 0px 0px 2px,
+		rgba(172, 230, 0, 0.65) 0px 4px 6px -1px,
+		rgba(172, 230, 0, 0.08) 0px 1px 0px inset;
+}
+.box1 {
+     background-color: #388E3C;
+     box-shadow:  rgba(197, 216, 164, 0.4) 0px 0px 0px 2px,
+		rgba(197, 216, 164, 0.65) 0px 4px 6px -1px,
+		rgba(197, 216, 164, 0.08) 0px 1px 0px inset;;
+}
+
+
+.iconspan{
+	padding: 11px;
+	height: 90px;
+	border: solid 10px #DDEEDF;
+	box-shadow: rgba(242, 249, 241, 0.25) 0px 54px 55px, rgba(242, 249, 241, 0.12) 0px -12px 30px, 
+		rgba(242, 249, 241, 0.12) 0px 4px 6px, rgba(242, 249, 241, 0.17) 0px 12px 13px,
+		rgba(242, 249, 241, 0.09) 0px -3px 5px;			
+
+}
+.mybtn{
+	background-color: #388E3C !important ;
+	color: #F2F9F1 !important;
+}
+
+.span-num {
+	color:#388E3C;
+
+}
+
