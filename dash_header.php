@@ -1,6 +1,5 @@
 <?php
 include("db.php");
-require('./core/pdo.php');
 error_reporting(0);
 session_start();
 
